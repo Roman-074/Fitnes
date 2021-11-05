@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/repeat"
+        android:textColor="@color/black"
+        android:fontFamily="@font/righteous_regular"
+        android:textSize="@dimen/_24ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title">
+
+
+        <CheckBox
+            android:id="@+id/mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/text_blue"
+            android:fontFamily="@font/raleway_regular"
+            android:text="@string/monday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            tools:checked="true" />
+
+        <CheckBox
+            android:id="@+id/tue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/text_blue"
+            android:fontFamily="@font/raleway_regular"
+            android:text="@string/tuesday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            tools:checked="true" />
+
+        <CheckBox
+            android:id="@+id/wed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/text_blue"
+            android:fontFamily="@font/raleway_regular"
+            android:text="@string/wednesday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            tools:checked="true" />
+
+        <CheckBox
+            android:id="@+id/thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/text_blue"
+            android:fontFamily="@font/raleway_regular"
+            android:text="@string/thursday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            tools:checked="true" />
+
+        <CheckBox
+            android:id="@+id/fri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/text_blue"
+            android:fontFamily="@font/raleway_regular"
+            android:text="@string/friday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            tools:checked="false" />
+
+        <CheckBox
+            android:id="@+id/sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/text_blue"
+            android:fontFamily="@font/raleway_regular"
+            android:text="@string/saturday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            tools:checked="@tools:sample/first_names" />
+
+        <CheckBox
+            android:id="@+id/sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/text_blue"
+            android:fontFamily="@font/raleway_regular"
+            android:text="@string/sunday"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            tools:checked="false" />
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/raleway_regular"
+        android:text="@string/cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/raleway_regular"
+        android:text="@string/ok"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cancel"
+        app:layout_constraintTop_toTopOf="@+id/cancel"
+        app:layout_goneMarginTop="@dimen/_12sdp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

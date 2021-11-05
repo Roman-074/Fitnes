@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_gray">
+
+
+
+    <View
+        android:id="@+id/progress_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/progress_bar_background_blue"
+        android:alpha="0.28"
+        />
+
+    <View
+        android:id="@+id/progress_bar"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/progress_bar_guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/registration_progressbar_gradient"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/progress_bar_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95"/>
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_marginStart="@dimen/_32sdp"
+        android:layout_marginEnd="@dimen/_32sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/progress_bar_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/activity_weak_image"
+        android:text="@string/what_s_your_current_activity_level"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/righteous_regular"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_32sdp"/>
+
+    <ImageView
+        android:id="@+id/activity_weak_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/reg_activity_level_img_source_weak_lion"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintBottom_toTopOf="@id/radio_group"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/activity_advanced_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/reg_activity_level_img_source_advanced_lion"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintBottom_toTopOf="@id/radio_group"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/activity_master_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/reg_activity_level_img_source_master_lion"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintBottom_toTopOf="@id/radio_group"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/proceed_btn"
+        app:layout_constraintTop_toBottomOf="@+id/activity_weak_image">
+
+        <RadioButton
+            android:id="@+id/radio_weak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/righteous_regular"
+            android:textSize="@dimen/_14ssp"
+            android:text="@string/beginner"
+            android:textColor="@color/text_blue"
+            android:checked="true"
+            android:buttonTint="@color/text_blue"/>
+
+        <RadioButton
+            android:id="@+id/radio_advanced"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:fontFamily="@font/righteous_regular"
+            android:text="@string/advanced"
+            android:textSize="@dimen/_14ssp" />
+
+        <RadioButton
+            android:id="@+id/radio_master"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/righteous_regular"
+            android:textSize="@dimen/_14ssp"
+            android:text="@string/master"
+            android:buttonTint="@color/black"
+
+            />
+
+    </RadioGroup>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/proceed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/button_background_gradient_blue_rounded"
+        app:layout_constraintBottom_toTopOf="@id/btn_guideline"
+        android:fontFamily="@font/righteous_regular"
+        android:paddingStart="@dimen/_56sdp"
+        android:paddingEnd="@dimen/_56sdp"
+        android:text="@string/proceed"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radio_group"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/btn_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

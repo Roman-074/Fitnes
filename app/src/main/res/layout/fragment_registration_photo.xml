@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_gray">
+
+
+
+    <View
+        android:id="@+id/progress_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/progress_bar_background_blue"
+        android:alpha="0.28"
+        />
+
+    <View
+        android:id="@+id/progress_bar"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/progress_bar_guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/registration_progressbar_gradient"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/progress_bar_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.875"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:src="@drawable/reg_photo_fab_icon_add"
+        app:backgroundTint="@color/text_blue"
+        android:clickable="true"
+        android:focusable="true"
+        app:tint="@android:color/white"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="invisible"
+        tools:visibility="visible"
+
+        android:src="@drawable/reg_photo_fab_icon_select"
+        app:backgroundTint="@color/text_blue"
+        app:layout_constraintEnd_toEndOf="@+id/fab_menu"
+        app:layout_constraintTop_toBottomOf="@id/fab_menu"
+        app:tint="@android:color/white" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_from_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:src="@drawable/reg_photo_fab_icon_from_gallery"
+        app:backgroundTint="@color/text_blue"
+        app:layout_constraintEnd_toEndOf="@+id/fab_menu"
+        app:layout_constraintTop_toBottomOf="@id/fab_select"
+        app:tint="@android:color/white" />
+
+
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        app:riv_oval="true"
+        android:id="@+id/profile_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/reg_photo_img_src_person"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/_72sdp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_12sdp"
+        android:id="@+id/photo_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/righteous_regular"
+        android:text="@string/profile_picture"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_photo" />
+
+    <TextView
+        android:id="@+id/standart_fab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/righteous_regular"
+        android:text="@string/select_picture"
+        android:alpha="0.0"
+        tools:alpha="1.0"
+        android:textColor="@color/black"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/fab_select"
+        app:layout_constraintEnd_toStartOf="@+id/fab_select"
+        app:layout_constraintTop_toTopOf="@+id/fab_select" />
+
+    <TextView
+        android:id="@+id/photo_fab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/righteous_regular"
+        android:text="@string/from_gellery"
+        android:textColor="@color/black"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:textSize="@dimen/_14sdp"
+        android:alpha="0.0"
+        tools:alpha="1.0"
+        app:layout_constraintBottom_toBottomOf="@+id/fab_from_gallery"
+        app:layout_constraintEnd_toStartOf="@+id/fab_from_gallery"
+        app:layout_constraintTop_toTopOf="@+id/fab_from_gallery" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/proceed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background_gradient_blue_rounded"
+        android:fontFamily="@font/righteous_regular"
+        android:paddingStart="@dimen/_56sdp"
+        android:paddingEnd="@dimen/_56sdp"
+        android:text="@string/proceed"
+        android:textAllCaps="false"
+        android:textColor="@color/main_background_gray"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo_title"
+        android:layout_marginTop="@dimen/_150sdp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

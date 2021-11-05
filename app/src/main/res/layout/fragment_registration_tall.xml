@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_gray">
+
+
+    <View
+        android:id="@+id/progress_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:alpha="0.28"
+        android:background="@color/progress_bar_background_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/progress_bar"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:background="@drawable/registration_progressbar_gradient"
+        app:layout_constraintEnd_toEndOf="@id/progress_bar_guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/progress_bar_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:fontFamily="@font/righteous_regular"
+        android:text="@string/how_tall_are_you"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progress_bar_background" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/convert_sm_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background_gradient_blue_rounded_4"
+            android:enabled="false"
+            android:fontFamily="@font/raleway_regular"
+            android:paddingStart="@dimen/_32sdp"
+            android:paddingEnd="@dimen/_32sdp"
+            android:text="@string/cm"
+            android:textAllCaps="false"
+            android:textColor="@color/main_background_gray"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/convert_ft_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_32sdp"
+            android:background="@drawable/button_background_gradient_gray_rounded_4"
+            android:enabled="true"
+            android:fontFamily="@font/raleway_regular"
+            android:paddingStart="@dimen/_32sdp"
+            android:paddingEnd="@dimen/_32sdp"
+            android:text="@string/ft"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cm_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/error"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/cm_tall_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:fontFamily="@font/raleway_regular"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@color/black"
+            android:textColorHint="@color/edit_text_color_hint_gray"
+            android:textCursorDrawable="@drawable/reg_name_color_cursor_blue"
+            android:textSize="@dimen/_36sdp"
+            app:layout_constraintBottom_toTopOf="@id/proceed_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <TextView
+            android:id="@+id/cm_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:fontFamily="@font/raleway_regular"
+            android:text="@string/cm"
+            android:textColor="@color/edit_text_color_hint_gray"
+            android:textSize="@dimen/_36sdp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/cm_tall_edit_text"
+            app:layout_constraintStart_toEndOf="@+id/cm_tall_edit_text"
+            app:layout_constraintTop_toTopOf="@+id/cm_tall_edit_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ft_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/error"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/ft_tall_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:fontFamily="@font/raleway_regular"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textColorHint="@color/edit_text_color_hint_gray"
+            android:textCursorDrawable="@drawable/reg_name_color_cursor_blue"
+            android:textSize="@dimen/_36sdp" />
+
+        <TextView
+            android:id="@+id/ft_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:fontFamily="@font/raleway_regular"
+
+            android:text="@string/ft"
+            android:textColor="@color/edit_text_color_hint_gray"
+            android:textSize="@dimen/_36sdp"
+            android:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/in_tall_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_32sdp"
+            android:backgroundTint="@android:color/transparent"
+            android:fontFamily="@font/raleway_regular"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textColor="@color/black"
+            android:textColorHint="@color/edit_text_color_hint_gray"
+            android:textCursorDrawable="@drawable/reg_name_color_cursor_blue"
+            android:textSize="@dimen/_36sdp" />
+
+        <TextView
+            android:id="@+id/in_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:fontFamily="@font/raleway_regular"
+            android:text="@string/in"
+            android:textColor="@color/edit_text_color_hint_gray"
+            android:textSize="@dimen/_36sdp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="@string/you_must_be_at_least_13_years_old"
+        android:textColor="@color/error_color"
+        android:textSize="@dimen/_12sdp"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/proceed_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="@dimen/_16sdp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/proceed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_48sdp"
+        android:background="@drawable/button_background_gradient_gray_rounded"
+        android:cursorVisible="true"
+        android:enabled="false"
+        android:fontFamily="@font/righteous_regular"
+        android:paddingStart="@dimen/_56sdp"
+        android:paddingEnd="@dimen/_56sdp"
+        android:text="@string/proceed"
+        android:textAllCaps="false"
+        android:textColor="@color/main_background_gray"
+        android:textCursorDrawable="@drawable/fragment_registration_edit_text_cursor_color"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

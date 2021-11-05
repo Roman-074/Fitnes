@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    >
+
+    <include
+        android:id="@+id/toolbar_layout"
+        layout="@layout/toolbar_workouts_layout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/morning_gymnastics"
+        android:textColor="@color/black"
+        android:fontFamily="@font/raleway_black"
+        android:textSize="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_8sdp"/>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_8sdp"
+        android:id="@+id/recommendation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/recommendation_background_light_blue"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_24sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recommendation"
+            android:textColor="@color/black"
+            android:fontFamily="@font/raleway_regular"
+            android:textSize="@dimen/_14ssp"
+            />
+
+        <TextView
+            android:layout_marginStart="@dimen/_24sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_day_water"
+            android:textColor="@color/black"
+            android:fontFamily="@font/raleway_regular"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+
+            />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/stick_view"
+        android:layout_width="@dimen/_2sdp"
+        android:layout_height="@dimen/_16sdp"
+        app:layout_constraintTop_toBottomOf="@id/recommendation"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/text_blue"
+        android:layout_marginStart="@dimen/_24sdp"
+        />
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/recommendation"
+        app:layout_constraintStart_toEndOf="@id/stick_view"
+        android:layout_marginStart="@dimen/_8sdp"
+        tools:text="28 exercises"
+        android:textColor="@color/black"
+        android:fontFamily="@font/raleway_semibold"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_8sdp"/>
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/recommendation"
+        app:layout_constraintStart_toEndOf="@id/exercises"
+        android:layout_marginStart="@dimen/_8sdp"
+        tools:text="~ 28 points"
+        android:textColor="@color/text_blue"
+        android:fontFamily="@font/raleway_semibold"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_8sdp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/stick_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textAllCaps="false"
+        android:text="@string/start_a_workout"
+        android:textColor="@color/white"
+        android:paddingStart="@dimen/_24sdp"
+        android:paddingEnd="@dimen/_24sdp"
+        android:textSize="@dimen/_20ssp"
+        android:fontFamily="@font/righteous_regular"
+        android:background="@drawable/button_background_gradient_blue_rounded"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_view"
+        app:layout_constraintTop_toBottomOf="@id/start_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_8sdp"
+        tools:listitem="@layout/recycle_item_exercise"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

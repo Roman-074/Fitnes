@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_background_gray">
+
+        <include
+            android:id="@+id/toolbar_layout"
+            layout="@layout/toolbar_exercise_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animated_exercise"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            app:layout_constraintBottom_toTopOf="@id/exercise_title"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar_layout" />
+
+        <TextView
+            android:id="@+id/exercise_title"
+            android:layout_width="0dp"
+            android:layout_marginStart="@dimen/_32sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_32sdp"
+            android:fontFamily="@font/righteous_regular"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline"
+            tools:text="Stretching with your hands" />
+
+        <TextView
+            android:id="@+id/exercise_repetitions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:fontFamily="@font/righteous_regular"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/_18sdp"
+            app:layout_constraintStart_toStartOf="@+id/exercise_title"
+            app:layout_constraintTop_toBottomOf="@+id/exercise_title"
+            tools:text="x3" />
+
+
+        <ImageView
+            android:id="@+id/approaches_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/item_exercise_img_src_aproaches"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/exercise_repetitions"
+            app:layout_constraintStart_toEndOf="@+id/exercise_repetitions"
+            app:layout_constraintTop_toTopOf="@+id/exercise_repetitions"
+
+            app:layout_constraintVertical_bias="0.8"
+            app:layout_goneMarginStart="@dimen/_16sdp" />
+
+        <TextView
+            android:id="@+id/approaches_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:fontFamily="@font/righteous_regular"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/_18sdp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/exercise_repetitions"
+            app:layout_constraintStart_toEndOf="@id/approaches_iv"
+            app:layout_constraintTop_toTopOf="@+id/exercise_repetitions"
+            app:layout_constraintVertical_bias="1.0"
+            tools:text="5" />
+
+
+        <!--        убрать-->
+        <ImageView
+            android:id="@+id/exercise_end"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/exercise_info_img_src_remove"
+            app:layout_constraintBottom_toBottomOf="@+id/exercise_play_container"
+            app:layout_constraintEnd_toStartOf="@+id/exercise_play_container"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/exercise_play_container" />
+
+        <FrameLayout
+            android:id="@+id/exercise_play_container"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_goneMarginTop="@dimen/_16sdp"
+            app:layout_constraintTop_toBottomOf="@+id/exercise_repetitions">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/exercise_play_button"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/exercise_repetitions"
+                app:lottie_rawRes="@raw/exercise_info_play_btn_animation" />
+
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cpb_background_progressbar_color="@color/circular_progress_bar_background"
+                app:cpb_background_progressbar_width="@dimen/_4sdp" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/exercise_skip"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/exercise_info_img_src_skip"
+            app:layout_constraintBottom_toBottomOf="@+id/exercise_play_container"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/exercise_play_container"
+            app:layout_constraintTop_toTopOf="@+id/exercise_play_container" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/forest_background"
+            android:backgroundTint="@color/forest_background_tint"
+            app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/video_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            tools:visibility="gone"
+
+            app:constraint_referenced_ids="
+                animated_exercise,
+                exercise_skip,
+                exercise_end,
+                exercise_play_container,
+                approaches_iv,
+                approaches_tv,
+                exercise_repetitions,"
+            />
+
+
+
+        <TextView
+            android:id="@+id/exercise_description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/_24sdp"
+            android:layout_marginEnd="@dimen/_24sdp"
+            android:fontFamily="@font/raleway_regular"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginTop="@dimen/_12sdp"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintTop_toBottomOf="@+id/exercise_title"
+            app:layout_constraintBottom_toTopOf="@id/exercise_count_info"
+            android:layout_marginBottom="@dimen/_12sdp"
+            tools:text="@tools:sample/lorem/random" />
+
+        <TextView
+            android:id="@+id/exercise_count_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Repeat 3 times"
+            android:fontFamily="@font/righteous_regular"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="@color/text_blue"
+            app:layout_constraintStart_toStartOf="@id/exercise_description"
+            app:layout_constraintTop_toBottomOf="@id/exercise_description"
+            android:layout_marginBottom="@dimen/_16sdp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/info_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:visibility="visible"
+
+            app:constraint_referenced_ids="
+                exercise_description,exercise_count_info"
+            />
+
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintGuide_percent="0.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

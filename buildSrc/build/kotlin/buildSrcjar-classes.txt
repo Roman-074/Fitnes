@@ -1,0 +1,1 @@
+/Users/b/Desktop/Fitnes/buildSrc/build/classes/kotlin/main/Dependencies$Dimens.class:/Users/b/Desktop/Fitnes/buildSrc/build/classes/kotlin/main/Dependencies$NavigationComponents.class:/Users/b/Desktop/Fitnes/buildSrc/build/classes/kotlin/main/Dependencies.class

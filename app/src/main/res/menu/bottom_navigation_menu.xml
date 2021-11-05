@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/progressFragment"
+        android:icon="@drawable/nav_menu_icon_progress_unactive"
+        android:title="@string/progress" />
+
+    <item
+        android:id="@+id/workoutsFragment"
+        android:icon="@drawable/nav_menu_icon_workout_unactive"
+        android:title="@string/workouts" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/nav_menu_icon_profile_unactive"
+        android:title="@string/profile" />
+</menu>

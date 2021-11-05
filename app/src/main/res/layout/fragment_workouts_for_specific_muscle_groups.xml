@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/toolbar_layout"
+        layout="@layout/toolbar_workouts_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:fontFamily="@font/raleway_black"
+        android:gravity="center"
+        android:text="@string/workouts_for_specific_muscle_groups"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_layout" />
+
+    <LinearLayout
+        android:id="@+id/first_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_48sdp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/layout_center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title">
+
+        <LinearLayout
+            android:id="@+id/arms_and_chest"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_4sdp"
+            android:layout_weight="6"
+            android:background="@drawable/recycle_item_exercise_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:adjustViewBounds="true"
+                android:paddingHorizontal="@dimen/_36sdp"
+                android:src="@drawable/fragment_seven_days_training_course_img_src_arms_and_chest" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/righteous_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:text="@string/arms_and_chest" />
+
+            <TextView
+                android:id="@+id/arms_and_chest_exercises_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:fontFamily="@font/raleway_regular"
+                android:textColor="#3A7BD5"
+                android:textSize="@dimen/_8ssp"
+                tools:text="11 exercises" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stretching"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_4sdp"
+            android:layout_weight="10"
+            android:background="@drawable/recycle_item_exercise_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:adjustViewBounds="true"
+                android:paddingHorizontal="@dimen/_14sdp"
+                android:src="@drawable/fragment_seven_days_training_course_img_src_stretching" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/righteous_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:text="@string/stretching" />
+
+            <TextView
+                android:id="@+id/stretching_exercises_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/raleway_regular"
+                android:textColor="#3A7BD5"
+                android:textSize="@dimen/_8ssp"
+                tools:text="11 exercises" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/plank"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_4sdp"
+            android:layout_weight="4"
+            android:background="@drawable/recycle_item_exercise_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:adjustViewBounds="true"
+                android:paddingHorizontal="@dimen/_28sdp"
+                android:src="@drawable/fragment_seven_days_training_course_img_src_plank" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/righteous_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:text="@string/plank" />
+
+            <TextView
+                android:id="@+id/plank_exercises_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/raleway_regular"
+                android:textColor="#3A7BD5"
+                android:textSize="@dimen/_8ssp"
+                tools:text="12 exercises" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_48sdp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/layout_center"
+        app:layout_constraintTop_toBottomOf="@+id/title">
+
+        <LinearLayout
+            android:id="@+id/press"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_4sdp"
+            android:layout_weight="6"
+            android:background="@drawable/recycle_item_exercise_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:adjustViewBounds="true"
+                android:paddingHorizontal="@dimen/_36sdp"
+                android:src="@drawable/fragment_seven_days_training_course_img_src_press" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/righteous_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:text="@string/press" />
+
+            <TextView
+                android:id="@+id/press_exercises_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:fontFamily="@font/raleway_regular"
+                android:textColor="#3A7BD5"
+                android:textSize="@dimen/_8ssp"
+                tools:text="14 exercises" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/legs"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_4sdp"
+            android:layout_weight="5"
+            android:background="@drawable/recycle_item_exercise_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:adjustViewBounds="true"
+                android:paddingHorizontal="@dimen/_24sdp"
+                android:src="@drawable/fragment_seven_days_training_course_img_src_legs" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/righteous_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:text="@string/legs" />
+
+            <TextView
+                android:id="@+id/legs_exercises_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/raleway_regular"
+                android:textColor="#3A7BD5"
+                android:textSize="@dimen/_8ssp"
+                tools:text="9 exercises" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shoulers_and_back"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_4sdp"
+            android:layout_weight="10"
+            android:background="@drawable/recycle_item_exercise_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/fragment_seven_days_training_course_img_src_shoulders" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/righteous_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:text="@string/shoulders_and_back" />
+
+            <TextView
+                android:id="@+id/shoulers_and_back_exercises_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/raleway_regular"
+                android:textColor="#3A7BD5"
+                android:textSize="@dimen/_8ssp"
+                tools:text="11 exercises" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/layout_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

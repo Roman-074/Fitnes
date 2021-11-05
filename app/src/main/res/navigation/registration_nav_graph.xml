@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/registration_nav_graph.xml"
+    app:startDestination="@id/registrationGenderFragment">
+
+    <fragment
+        android:id="@+id/registrationGenderFragment"
+        android:name="hedgehog.tech.fitnes.ui.userData.gender.RegistrationGenderFragment"
+        android:label="RegistrationGenderFragment" >
+        <action
+            android:id="@+id/action_registrationGenderFragment_to_registrationNameFragment"
+            app:destination="@id/registrationNameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationNameFragment"
+        android:name="hedgehog.tech.fitnes.ui.userData.name.RegistrationNameFragment"
+        android:label="RegistrationNameFragment" >
+        <action
+            android:id="@+id/action_registrationNameFragment_to_registrationAgeFragment"
+            app:destination="@id/registrationAgeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationAgeFragment"
+        android:name="hedgehog.tech.fitnes.ui.userData.age.RegistrationAgeFragment"
+        android:label="RegistrationAgeFragment" >
+        <action
+            android:id="@+id/action_registrationAgeFragment_to_registrationTallFragment"
+            app:destination="@id/registrationTallFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationTallFragment"
+        android:name="hedgehog.tech.fitnes.ui.userData.tall.RegistrationTallFragment"
+        android:label="RegistrationTallFragment" >
+        <action
+            android:id="@+id/action_registrationTallFragment_to_registrationCurrWeightFragment"
+            app:destination="@id/registrationCurrWeightFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationCurrWeightFragment"
+        android:name="hedgehog.tech.fitnes.ui.userData.currWeight.RegistrationCurrWeightFragment"
+        android:label="RegistrationCurrWeightFragment" >
+        <action
+            android:id="@+id/action_registrationCurrWeightFragment_to_registrationGoalWeightFragment"
+            app:destination="@id/registrationGoalWeightFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationGoalWeightFragment"
+        android:name="hedgehog.tech.fitnes.ui.userData.goalWeight.RegistrationGoalWeightFragment"
+        android:label="RegistrationGoalWeightFragment" >
+        <action
+            android:id="@+id/action_registrationGoalWeightFragment_to_registrationPhotoFragment"
+            app:destination="@id/registrationPhotoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationPhotoFragment"
+        android:name="hedgehog.tech.fitnes.ui.userData.photo.RegistrationPhotoFragment"
+        android:label="RegistrationPhotoFragment" >
+        <action
+            android:id="@+id/action_registrationPhotoFragment_to_registrationPhotoStandart"
+            app:destination="@id/registrationPhotoStandart" />
+        <action
+            android:id="@+id/action_registrationPhotoFragment_to_registrationActivityLevelFragment"
+            app:destination="@id/registrationActivityLevelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationPhotoStandart"
+        android:name="hedgehog.tech.fitnes.ui.userData.photoStandart.RegistrationPhotoStandartFragment"
+        android:label="RegistrationPhotoStandart" >
+        <action
+            android:id="@+id/action_registrationPhotoStandart_to_registrationActivityLevelFragment"
+            app:destination="@id/registrationActivityLevelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationActivityLevelFragment"
+        android:name="hedgehog.tech.fitnes.ui.userData.activityLevel.RegistrationActivityLevelFragment"
+        android:label="RegistrationActivityLevelFragment" >
+        <action
+            android:id="@+id/action_registrationActivityLevelFragment_to_registrationCompleteFragment"
+            app:destination="@id/registrationCompleteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationCompleteFragment"
+        android:name="hedgehog.tech.fitnes.ui.userData.registrationComplete.RegistrationCompleteFragment"
+        android:label="RegistrationCompleteFragment" />
+</navigation>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_gray">
+
+
+    <View
+        android:id="@+id/progress_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/progress_bar_background_blue"
+        android:alpha="0.28"
+        />
+
+    <View
+        android:id="@+id/progress_bar"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/progress_bar_guideline"
+        android:background="@drawable/registration_progressbar_gradient"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/progress_bar_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/progress_bar_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/what_s_your_goal_weight"
+        android:textColor="@color/black"
+        android:fontFamily="@font/righteous_regular"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_24sdp"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/convert_kg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background_gradient_blue_rounded_4"
+            android:enabled="false"
+            android:fontFamily="@font/raleway_regular"
+            android:paddingStart="@dimen/_32sdp"
+            android:paddingEnd="@dimen/_32sdp"
+            android:text="@string/kg"
+            android:textAllCaps="false"
+            android:textColor="@color/main_background_gray"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/convert_lb_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_32sdp"
+            android:background="@drawable/button_background_gradient_gray_rounded_4"
+            android:enabled="true"
+            android:fontFamily="@font/raleway_regular"
+            android:paddingStart="@dimen/_32sdp"
+            android:paddingEnd="@dimen/_32sdp"
+            android:text="@string/lb"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kg_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/proceed_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:visibility="visible">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/kg_weight_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:fontFamily="@font/raleway_regular"
+            android:hint="0"
+            android:maxLength="3"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/edit_text_color_hint_gray"
+            android:textCursorDrawable="@drawable/reg_name_color_cursor_blue"
+            android:textSize="@dimen/_36sdp"
+            app:layout_constraintBottom_toTopOf="@id/proceed_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <TextView
+            android:id="@+id/kg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:fontFamily="@font/raleway_regular"
+            android:text="@string/kg"
+            android:textColor="@color/edit_text_color_hint_gray"
+            android:textSize="@dimen/_36sdp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/cm_tall_edit_text"
+            app:layout_constraintStart_toEndOf="@+id/cm_tall_edit_text"
+            app:layout_constraintTop_toTopOf="@+id/cm_tall_edit_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lb_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/proceed_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:visibility="invisible"
+        >
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/lb_weight_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:fontFamily="@font/raleway_regular"
+            android:hint="0"
+            android:maxLength="5"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="@color/edit_text_color_hint_gray"
+            android:textCursorDrawable="@drawable/reg_name_color_cursor_blue"
+            android:textSize="@dimen/_36sdp"
+            />
+
+        <TextView
+            android:id="@+id/lb_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_regular"
+            android:text="@string/lb"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:textColor="@color/edit_text_color_hint_gray"
+            android:textSize="@dimen/_36sdp"
+            />
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:fontFamily="@font/raleway_semibold"
+        android:visibility="invisible"
+        android:textColor="@color/error_color"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintBottom_toTopOf="@+id/proceed_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="@dimen/_16sdp"
+         />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/proceed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/_48sdp"
+        android:textAllCaps="false"
+        android:text="@string/proceed"
+        android:textColor="@color/main_background_gray"
+        android:paddingStart="@dimen/_56sdp"
+        android:paddingEnd="@dimen/_56sdp"
+        android:textSize="@dimen/_20ssp"
+        android:fontFamily="@font/righteous_regular"
+        android:enabled="false"
+        android:background="@drawable/button_background_gradient_gray_rounded"
+        android:textCursorDrawable="@drawable/fragment_registration_edit_text_cursor_color"
+        android:cursorVisible="true"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

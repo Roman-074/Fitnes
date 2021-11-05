@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title":"Morning gymnastics",
+    "time":"1 hour 24 min",
+    "type": 0
+  },
+  {
+    "id": 2,
+    "title":"7-day training course",
+    "time":"7 days",
+    "type": 1
+  },
+  {
+    "id": 3,
+    "title":"Workout for specific muscle groups",
+    "time":"8 days",
+    "type": 2
+  },
+  {
+    "id": 4,
+    "title":"High bar",
+    "time":"13 minutes",
+    "type": 3
+  },
+  {
+    "id": 5,
+    "title":"Power training",
+    "time":"12 minutes",
+    "type": 4
+  }
+]

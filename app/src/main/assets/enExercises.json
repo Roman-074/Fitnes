@@ -1,0 +1,1003 @@
+[
+  {
+    "id": 1,
+    "title": "Arm stretches",
+    "description": "Stretching with your hands .Legs shoulder-width apart, take a deep breath-stretch your arms to the sides and lift up over your head, stretch your whole body on your toes.Exhale-lower your hands down.We stand on the full foot of the foot .",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_arm_stretches.json",
+    "femaleAnimPath": "raw/exercise_woman_arm_stretches.json"
+  },
+  {
+    "id": 2,
+    "title": "Shoulder warm up",
+    "description": "We connect the hands behind the head into the lock and lift them up .We pull the shoulders to the ears and raise the top of the head as high as possible .- We bring the hands in the lock forward in front of us, round the back, pull the stomach into ourselves .- We put our hands behind our backs.Opening up .Chest forward, shoulders back.We stretch our entire spine upward.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_shoulder_warm_up.json",
+    "femaleAnimPath": "raw/exercise_woman_shoulder_warm_up.json"
+  },
+  {
+    "id": 3,
+    "title": "Head rotation",
+    "description": "Straight stand .Feet shoulder - width apart . Horizontal head turns.We reach from one shoulder to the other .Rotational movement of the head.With each circle , gradually increasing the amplitude of the deviation of the head from the center .We pull the shoulders down as well.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_head_rotation.json",
+    "femaleAnimPath": "raw/exercise_woman_head_rotation.json"
+  },
+  {
+    "id": 4,
+    "title": "Shoulder rotation",
+    "description": "Rotational backward movement . Forward rotation.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_shoulder_rotation.json",
+    "femaleAnimPath": "raw/exercise_woman_shoulder_rotation.json"
+  },
+  {
+    "id": 5,
+    "title": "Elbows rotation",
+    "description": "We put our thumbs on our shoulders .Elbow Rotation.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_elbows_rotation.json",
+    "femaleAnimPath": "raw/exercise_woman_elbows_rotation.json"
+  },
+  {
+    "id": 6,
+    "title": "Straight arms rotation",
+    "description": "Rotation with straight arms . With straightened hands, we perform circular rotations with both hands",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_straight_arms_rotation.json",
+    "femaleAnimPath": "raw/exercise_woman_straight_arms_rotation.json"
+  },
+  {
+    "id": 7,
+    "title": "Head turns",
+    "description": "The arms are stretched out to the sides .At the same time , one hand looks palm down , and the other palm up - where we turn our head palm up .We change the direction of the head from one hand to the other, we change the position of the palms.- so that we always have to look at the hand with the palm up.The pelvis remains motionless .",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_head_turns.json",
+    "femaleAnimPath": "raw/exercise_woman_head_turns.json"
+  },
+  {
+    "id": 8,
+    "title": "Thoracic twists",
+    "description": "Torsion of the thoracic region .Work with the Thoracic department .We push the chest forward and then the sunken chest back",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_thoracic_twists.json",
+    "femaleAnimPath": "raw/exercise_woman_thoracic_twists.json"
+  },
+  {
+    "id": 9,
+    "title": "Body lateral displacements",
+    "description": "Lateral displacement of the body .The pelvis is in place .Lateral displacement of the Body .Retractions along .As much as possible, we take the thoracic section to the right then to the left.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_body_lateral_displacements.json",
+    "femaleAnimPath": "raw/exercise_woman_body_lateral_displacements.json"
+  },
+  {
+    "id": 10,
+    "title": "Body circular displacements",
+    "description": "Circular rotations of the body with being in a horizontal position .",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_body_circular_displacements.json",
+    "femaleAnimPath": "raw/exercise_woman_body_circular_displacements.json"
+  },
+  {
+    "id": 11,
+    "title": "Lateral traction",
+    "description": "One hand stretches diagonally behind the head to the side , the other below in the opposite direction .At the same time, the head rises with a look up - behind the hand that is on top",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_lateral_traction.json",
+    "femaleAnimPath": "raw/exercise_woman_lateral_traction.json"
+  },
+  {
+    "id": 12,
+    "title": "Body turns",
+    "description": "The left hand is placed on the belt , the right hand rises to chest level .A side turn is made to the maximum to the left side .",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_body_turns.json",
+    "femaleAnimPath": "raw/exercise_woman_body_turns.json"
+  },
+  {
+    "id": 13,
+    "title": "Body rotation",
+    "description": "We connect our hands at chest level in the lock .Initial rotation with a small amplitude.As the exercise progresses , we increase the amplitude .",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_body_rotation.json",
+    "femaleAnimPath": "raw/exercise_woman_body_rotation.json"
+  },
+  {
+    "id": 14,
+    "title": "Body bends",
+    "description": "Legs wider than shoulder width perform a tilt",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_body_bends.json",
+    "femaleAnimPath": "raw/exercise_woman_body_bends.json"
+  },
+  {
+    "id": 15,
+    "title": "Pelvis rotation",
+    "description": "Rotate the hip joint",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_pelvis_rotation.json",
+    "femaleAnimPath": "raw/exercise_woman_pelvis_rotation.json"
+  },
+  {
+    "id": 16,
+    "title": "Balancing, draw a circle with a toe",
+    "description": "Standing on one leg, the other bent at the knee, draw a circle",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_balancing_draw_a_circle_with_a_toe.json",
+    "femaleAnimPath": "raw/exercise_woman_balancing_draw_a_circle_with_a_toe.json"
+  },
+  {
+    "id": 17,
+    "title": "Knees rotation",
+    "description": "Legs together in a half - crouch position .Rotation of the knees .",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_knees_rotation.json",
+    "femaleAnimPath": "raw/exercise_woman_knees_rotation.json"
+  },
+  {
+    "id": 18,
+    "title": "Forward leg swing",
+    "description": "Swing your feet forward.To the maximum height .",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_forward_leg_swing.json",
+    "femaleAnimPath": "raw/exercise_woman_forward_leg_swing.json"
+  },
+  {
+    "id": 19,
+    "title": "Side leg swing",
+    "description": "Straight leg",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_side_leg_swing.json",
+    "femaleAnimPath": "raw/exercise_woman_side_leg_swing.json"
+  },
+  {
+    "id": 20,
+    "title": "Horizontal displacement",
+    "description": "Legs wide apart .we put our hands a little above the knees .We perform horizontal movements from one leg to the other.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_horizontal_displacement.json",
+    "femaleAnimPath": "raw/exercise_woman_horizontal_displacement.json"
+  },
+  {
+    "id": 21,
+    "title": "Side lunges",
+    "description": "Work on the deflection ,the back of the thigh",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_side_lunges.json",
+    "femaleAnimPath": "raw/exercise_woman_side_lunges.json"
+  },
+  {
+    "id": 22,
+    "title": "Lower back warm up",
+    "description": "Wide - spaced straight legs .We stretch our elbows to the ground .",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_lower_back_warm_up.json",
+    "femaleAnimPath": "raw/exercise_woman_lower_back_warm_up.json"
+  },
+  {
+    "id": 23,
+    "title": "Mill",
+    "description": "Straight arms .With alternate touching of the ground",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_mill.json",
+    "femaleAnimPath": "raw/exercise_woman_mill.json"
+  },
+  {
+    "id": 24,
+    "title": "Half-split, half-squat",
+    "description": "Stretching the inner thigh",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_half_split_half_squat.json",
+    "femaleAnimPath": "raw/exercise_woman_half_split_half_squat.json"
+  },
+  {
+    "id": 25,
+    "title": "Thigh stretch",
+    "description": "Standing on one leg , we pull the heel of the foot to the buttock .We try to push the pelvis forward ..Then we put the foot forward and make a deflection",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_thigh_stretch.json",
+    "femaleAnimPath": "raw/exercise_woman_thigh_stretch.json"
+  },
+  {
+    "id": 26,
+    "title": "Contact with deflection",
+    "description": "Touching with an inclination to the ground and bending back the arms up and back.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_contact_with_deflection.json",
+    "femaleAnimPath": "raw/exercise_woman_contact_with_deflection.json"
+  },
+  {
+    "id": 27,
+    "title": "Back bend",
+    "description": "Hands on the belt .We pull the body back as much as possible.Rest on your elbows and go down , wrap your arms around your feet and try to get as close as possible to your head to your feet",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_back_bend.json",
+    "femaleAnimPath": "raw/exercise_woman_back_bend.json"
+  },
+  {
+    "id": 28,
+    "title": "Shoulder girdle warm up",
+    "description": "We connect the hands behind the head into the lock and lift them up .We pull the shoulders to the ears and raise the top of the head as high as possible . We bring our hands in the lock forward in front of us , round our back, pull our stomach into ourselves .- We put our hands behind our backs.Opening up .Chest forward, shoulders back.We stretch our entire spine upward .",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_shoulder_girdle_warm_up.json",
+    "femaleAnimPath": "raw/exercise_woman_shoulder_girdle_warm_up.json"
+  },
+  {
+    "id": 29,
+    "title": "Warm up",
+    "description": "Warm up",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_.json",
+    "femaleAnimPath": "raw/exercise_woman_.json"
+  },
+  {
+    "id": 30,
+    "title": "Jump rope",
+    "description": "The legs are slightly narrower than the width of the shoulders .Put the rope behind your back .Bend your arms at the elbows , press them to the body .Rotate the brushes so that the rope passes over your head and dives right under your feet.At this point , it is necessary to make a jump .Keep spinning the rope at the same speed",
+    "kcalBurnedOnOneKgPerMinute": 14.0,
+    "maleAnimPath": "raw/exercise_men_jump_rope.json",
+    "femaleAnimPath": "raw/exercise_woman_jump_rope.json"
+  },
+  {
+    "id": 31,
+    "title": "Wall squats",
+    "description": "Lean your back against the wall so that a right angle is formed in your knees. The back should be straight.Stay in this position.",
+    "kcalBurnedOnOneKgPerMinute": 13.0,
+    "maleAnimPath": "raw/exercise_men_wall_squats.json",
+    "femaleAnimPath": "raw/exercise_woman_wall_squats.json"
+  },
+  {
+    "id": 32,
+    "title": "Squats with arms extended",
+    "description": "Legs shoulder-width apart, arms outstretched in front of you. Lower yourself until your hips are parallel to the floor. When performing the exercise, the knees should be directed in the same direction as the toes, return to the starting position.",
+    "kcalBurnedOnOneKgPerMinute": 13.0,
+    "maleAnimPath": "raw/exercise_men_squats_with_arms_extended.json",
+    "femaleAnimPath": "raw/exercise_woman_squats_with_arms_extended.json"
+  },
+  {
+    "id": 33,
+    "title": "Alternate step with hands on the waist",
+    "description": "Take a wide step forward so that the knee forms a right angle, and the knee of the leg remaining behind is about a centimeter from the floor.",
+    "kcalBurnedOnOneKgPerMinute": 9.0,
+    "maleAnimPath": "raw/exercise_men_alternate_step_with_hands_on_the_waist.json",
+    "femaleAnimPath": "raw/exercise_woman_alternate_step_with_hands_on_the_waist.json"
+  },
+  {
+    "id": 34,
+    "title": "Lifting up right leg on all fours",
+    "description": "Get on all fours, knees strictly under the hips, hands under the shoulders. Extend your right leg to the side, turning the knee up as much as possible.",
+    "kcalBurnedOnOneKgPerMinute": 4.3,
+    "maleAnimPath": "raw/exercise_men_lifting_up_right_leg_on_all_fours.json",
+    "femaleAnimPath": "raw/exercise_woman_lifting_up_right_leg_on_all_fours.json"
+  },
+  {
+    "id": 35,
+    "title": "Lifting up left leg on all fours",
+    "description": "Get on all fours, knees strictly under the hips, hands under the shoulders. Extend your left leg to the side, turning the knee up as much as possible.",
+    "kcalBurnedOnOneKgPerMinute": 4.3,
+    "maleAnimPath": "raw/exercise_men_lifting_up_left_leg_on_all_fours.json",
+    "femaleAnimPath": "raw/exercise_woman_lifting_up_left_leg_on_all_fours.json"
+  },
+  {
+    "id": 36,
+    "title": "Frog squat",
+    "description": "Legs slightly wider than shoulder width, hands on hips.Lower yourself until your hips are parallel to the floor. When performing, the knees should be directed in the same direction as the toes of the feet.",
+    "kcalBurnedOnOneKgPerMinute": 10.5,
+    "maleAnimPath": "raw/exercise_men_frog_squat.json",
+    "femaleAnimPath": "raw/exercise_woman_frog_squat.json"
+  },
+  {
+    "id": 37,
+    "title": "Alternate lying leg raises",
+    "description": "Lie on your side with your right arm under your head.lift your upper leg and return to the starting position.after doing the exercise several times, turn over to the other side. Tip: try to raise and lower a straight leg.",
+    "kcalBurnedOnOneKgPerMinute": 4.3,
+    "maleAnimPath": "raw/exercise_men_alternate_lying_leg_raises.json",
+    "femaleAnimPath": "raw/exercise_woman_alternate_lying_leg_raises.json"
+  },
+  {
+    "id": 38,
+    "title": "Squat walks",
+    "description": "Lean your back against the wall so that a right angle is formed in your knees. The back should be straight.Stay in this position.",
+    "kcalBurnedOnOneKgPerMinute": 6.1,
+    "maleAnimPath": "raw/exercise_men_squat_walks.json",
+    "femaleAnimPath": "raw/exercise_woman_squat_walks.json"
+  },
+  {
+    "id": 39,
+    "title": "Squat jumps",
+    "description": "Squatting down, jump up due to the abdominal muscles. When landing, take a squatting position.",
+    "kcalBurnedOnOneKgPerMinute": 13.5,
+    "maleAnimPath": "raw/exercise_men_squat_jumps.json",
+    "femaleAnimPath": "raw/exercise_woman_squat_jumps.json"
+  },
+  {
+    "id": 40,
+    "title": "Alternate straight-line substep",
+    "description": "Take a wide step forward so that the knee forms a right angle, and the knee of the leg remaining behind is about a centimeter from the floor.",
+    "kcalBurnedOnOneKgPerMinute": 5.6,
+    "maleAnimPath": "raw/exercise_men_alternate_straight_line_substep.json",
+    "femaleAnimPath": "raw/exercise_woman_alternate_straight_line_substep.json"
+  },
+  {
+    "id": 41,
+    "title": "Squat jumping",
+    "description": "Squatting down, jump up due to the abdominal muscles. When landing, take a squatting position.",
+    "kcalBurnedOnOneKgPerMinute": 13.5,
+    "maleAnimPath": "raw/exercise_men_squat_jumps.json.json",
+    "femaleAnimPath": "raw/exercise_woman_squat_jumps.json"
+  },
+  {
+    "id": 42,
+    "title": "Standing on all fours",
+    "description": "Get on all fours.",
+    "kcalBurnedOnOneKgPerMinute": 4.7,
+    "maleAnimPath": "raw/exercise_men_standing_on_all_fours.json",
+    "femaleAnimPath": "raw/exercise_woman_standing_on_all_fours.json"
+  },
+  {
+    "id": 43,
+    "title": "Lunges to the side",
+    "description": "Stand up straight.Then step back with the left foot to the right, at the same time bending your knees.Return to the standing position and move to the other side.",
+    "kcalBurnedOnOneKgPerMinute": 5.1,
+    "maleAnimPath": "raw/exercise_men_lunges_to_the_side.json",
+    "femaleAnimPath": "raw/exercise_woman_lunges_to_the_side.json"
+  },
+  {
+    "id": 44,
+    "title": "Superman",
+    "description": "Lie on your stomach , toes touching the floor , chin resting on your hands . Lift your chest and legs off the floor as high as possible .Stay in this position for the maximum time .Then return to the starting position .",
+    "kcalBurnedOnOneKgPerMinute": 7.3,
+    "maleAnimPath": "raw/exercise_men_superman.json",
+    "femaleAnimPath": "raw/exercise_woman_superman.json"
+  },
+  {
+    "id": 45,
+    "title": "Squat lunges forward with a return to the starting position",
+    "description": "Take a lying position on your back. Bend your knees, feet on the floor, hands palms down along the body, raise the pelvis as high as possible, making a bridge.",
+    "kcalBurnedOnOneKgPerMinute": 4.6,
+    "maleAnimPath": "raw/exercise_men_squat_lunges_forward_with_a_return_to_the_starting_position.json",
+    "femaleAnimPath": "raw/exercise_woman_squat_lunges_forward_with_a_return_to_the_starting_position.json"
+  },
+  {
+    "id": 46,
+    "title": "Jumping to the side",
+    "description": "Stand up straight, hands in front of you, and make jumps to the sides.",
+    "kcalBurnedOnOneKgPerMinute": 9.3,
+    "maleAnimPath": "raw/exercise_men_jumping_to_the_side.json",
+    "femaleAnimPath": "raw/exercise_woman_jumping_to_the_side.json"
+  },
+  {
+    "id": 47,
+    "title": "Breath awakening",
+    "description": "Feet shoulder-width apart. The arms and body are relaxed. We take a deep breath, while bending our arms at the elbows and lifting them to chest level with palms up. We make a full exhalation, we lower our hands in front of us, palms down.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_breath_awakening.json",
+    "femaleAnimPath": "raw/exercise_woman_breath_awakening.json"
+  },
+  {
+    "id": 48,
+    "title": "Circular head rotation",
+    "description": "Feet wide. Slowly begin to rotate the head clockwise with a slight deviation from the center. We change the direction of rotation in the opposite direction. Gradually increasing the angle of deviation of the head .",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_head_rotation.json",
+    "femaleAnimPath": "raw/exercise_woman_head_rotation.json"
+  },
+  {
+    "id": 49,
+    "title": "Warm up brushes",
+    "description": "The hands are gathered in a lock at chest level. Circular alternate rotation of the brushes with a change in the direction of rotation.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_warm_up_brushes.json",
+    "femaleAnimPath": "raw/exercise_woman_warm_up_brushes.json"
+  },
+  {
+    "id": 50,
+    "title": "Elbow joints",
+    "description": "The left hand is placed on the belt. With the right hand bent at the elbow, we make rotational movements, draw a circle - bending and unbending the arm. Changing hands .Right on the belt. Left in rotation.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_elbow_joints.json",
+    "femaleAnimPath": "raw/exercise_woman_elbow_joints.json"
+  },
+  {
+    "id": 51,
+    "title": "Shoulder joint",
+    "description": "Left hand on the belt. With the straightened right hand, we perform circular movements. We make a change of hands.  We perform this task in a mirror version.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_shoulder_warm_up.json",
+    "femaleAnimPath": "raw/exercise_woman_shoulder_warm_up.json"
+  },
+  {
+    "id": 52,
+    "title": "Warm up the trapezoid",
+    "description": "Arms bent at chest level. For one or two, we spread our arms to the maximum to the back bent at the elbows. Three or four. Straightened arms at chest level are mutually trying to push behind your back.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_warm_up_the_trapezoid.json",
+    "femaleAnimPath": "raw/exercise_woman_warm_up_the_trapezoid.json"
+  },
+  {
+    "id": 53,
+    "title": "Side bends",
+    "description": "Feet shoulder-width apart. The left hand is placed on the belt–the right half-bent is above the head. Inclines to the left side, the right hand tends to the floor. It is performed in a mirror with a change of hands and the direction of inclination.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_body_lateral_displacements.jsonn",
+    "femaleAnimPath": "raw/exercise_woman_body_lateral_displacements.json"
+  },
+  {
+    "id": 54,
+    "title": "Slopes",
+    "description": "Stand up straight, put your feet shoulder-width apart, straighten your back. Tighten your abs and, keeping your back straight, lower the body down, turning in the hip joints. Stay at the bottom point for 1-2 seconds and return to the starting position due to the efforts of the gluteal muscles",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_slopes.json",
+    "femaleAnimPath": "raw/exercise_woman_slopes.json"
+  },
+  {
+    "id": 55,
+    "title": "Rolls",
+    "description": "Hands on the belt. Standing on our toes, we roll onto our heels. Standing on our heels, we roll onto our toes.",
+    "kcalBurnedOnOneKgPerMinute": 2.1,
+    "maleAnimPath": "raw/exercise_men_rolls.json",
+    "femaleAnimPath": "raw/exercise_woman_rolls.json"
+  },
+  {
+    "id": 56,
+    "title": "Lunge",
+    "description": "Take a wide step forward so that the knee forms a right angle, and the knee of the leg remaining behind is about a centimeter from the floor.",
+    "kcalBurnedOnOneKgPerMinute": 5.3,
+    "maleAnimPath": "raw/exercise_men_lunge.json",
+    "femaleAnimPath": "raw/exercise_woman_lunge.json"
+  },
+  {
+    "id": 57,
+    "title": "Low start",
+    "description": "From a standing position, squat down and rest your hands on the ground.Straighten your arms and legs at the same time and immediately return to the squatting position .Then jump up.Low start is an aerobic strength exercise for the muscles of the whole body.",
+    "kcalBurnedOnOneKgPerMinute": 3.5,
+    "maleAnimPath": "raw/exercise_men_low_start.json",
+    "femaleAnimPath": "raw/exercise_woman_low_start.json"
+  },
+  {
+    "id": 58,
+    "title": "Glute bride",
+    "description": "Take a lying position on your back. Bend your knees, feet on the floor, hands palms down along the body, raise the pelvis as high as possible, making a bridge.",
+    "kcalBurnedOnOneKgPerMinute": 4.3,
+    "maleAnimPath": "raw/exercise_men_glute_bride.json",
+    "femaleAnimPath": "raw/exercise_woman_glute_bride.json"
+  },
+  {
+    "id": 59,
+    "title": "Jumping out of the squat",
+    "description": "Squatting down, jump up due to the abdominal muscles. When landing, take a squatting position.",
+    "kcalBurnedOnOneKgPerMinute": 13.5,
+    "maleAnimPath": "raw/exercise_men_squat_jumps.json",
+    "femaleAnimPath": "raw/exercise_woman_squat_jumps.json"
+  },
+  {
+    "id": 60,
+    "title": "Jumping on object",
+    "description": "The legs are at the width of the pelvis, the back is straight, the chest is forward. The gaze is not directed at the bedside table, but slightly upwards. Bend the knee joint, pull the arms back. With a powerful movement of the legs, we push off from the floor and make a jump. At the same time, we perform swings with our hands and slightly pulling our knees to the chest. On the bedside table, we do a complete straightening of the knee and hip joints. The hands also relax.",
+    "kcalBurnedOnOneKgPerMinute": 11.3,
+    "maleAnimPath": "raw/exercise_men_jumping_on_object.json",
+    "femaleAnimPath": "raw/exercise_woman_jumping_on_object.json"
+  },
+  {
+    "id": 61,
+    "title": "Side swing",
+    "description": "Lie on your side with your right arm under your head. Lift your upper leg and return to the starting position. After completing the exercise several times, turn over to the other side. Tip: try to raise and lower a straight leg.",
+    "kcalBurnedOnOneKgPerMinute": 6.2,
+    "maleAnimPath": "raw/exercise_men_side_swing.json",
+    "femaleAnimPath": "raw/exercise_woman_side_swing.json"
+  },
+  {
+    "id": 62,
+    "title": "Alternate side step with hands",
+    "description": "In the supine position, bend your knees, hands behind your head. Lift the body, lingering in the upper position. Slowly go back and repeat the exercise.",
+    "kcalBurnedOnOneKgPerMinute": 4.3,
+    "maleAnimPath": "raw/exercise_men_alternate_side_step_with_hands.json",
+    "femaleAnimPath": "raw/exercise_woman_alternate_side_step_with_hands.json"
+  },
+  {
+    "id": 63,
+    "title": "Push-ups with support",
+    "description": "Take the initial polo position lying down with emphasis on a chair or bench. The body is straight. Perform the exercise due to the strength of the hands.",
+    "kcalBurnedOnOneKgPerMinute": 7.0,
+    "maleAnimPath": "raw/exercise_men_push_ups_with_support.json",
+    "femaleAnimPath": "raw/exercise_woman_push_ups_with_support.json"
+  },
+  {
+    "id": 64,
+    "title": "Push-ups on all fours",
+    "description": "Take a kneeling position with emphasis, lift your feet up, keep your body straight. Get up due to the strength of your arms. The exercise involves the muscles of the chest, back and legs. As well as triceps and deltoids.",
+    "kcalBurnedOnOneKgPerMinute": 6.0,
+    "maleAnimPath": "raw/exercise_men_push_ups_on_all_fours.json",
+    "femaleAnimPath": "raw/exercise_woman_push_ups_on_all_fours.json"
+  },
+  {
+    "id": 65,
+    "title": "Push-ups from the floor",
+    "description": "Take a prone position, keep the body straight. Get up due to the strength of your arms. The exercise involves the muscles of the chest, back and legs. As well as triceps and deltoids.",
+    "kcalBurnedOnOneKgPerMinute": 8.0,
+    "maleAnimPath": "raw/exercise_men_push_ups_from_the_floor.json",
+    "femaleAnimPath": "raw/exercise_woman_push_ups_from_the_floor.json"
+  },
+  {
+    "id": 66,
+    "title": "Push-ups with a wide grip",
+    "description": "The starting position is lying with the rest of the arms are placed wider than the shoulders, so do not forget to follow the straight body.",
+    "kcalBurnedOnOneKgPerMinute": 6.0,
+    "maleAnimPath": "raw/exercise_men_push_ups_with_a_wide_grip.json",
+    "femaleAnimPath": "raw/exercise_woman_push_ups_with_a_wide_grip.json"
+  },
+  {
+    "id": 67,
+    "title": "Push-ups with a narrow grip",
+    "description": "The starting position is lying down with a stop. Connect the thumbs and index fingers under the breast in the shape of a diamond and perform push-ups.",
+    "kcalBurnedOnOneKgPerMinute": 7.0,
+    "maleAnimPath": "raw/exercise_men_push_ups_with_a_narrow_grip.json",
+    "femaleAnimPath": "raw/exercise_woman_push_ups_with_a_narrow_grip.json"
+  },
+  {
+    "id": 68,
+    "title": "Direct strikes at a speed",
+    "description": "From the position of the combat stance, we throw out direct blows at speed. Do not forget to return your hands to the initial position - head protection. The rack-The hands are folded into a fist and placed at the level of the jaw. Elbows pressed against the body. The head is slightly lowered.",
+    "kcalBurnedOnOneKgPerMinute": 9.0,
+    "maleAnimPath": "raw/exercise_men_direct_strikes_at_a_speed.json",
+    "femaleAnimPath": "raw/exercise_woman_direct_strikes_at_a_speed.json"
+  },
+  {
+    "id": 69,
+    "title": "Chest stretch",
+    "description": "Stand in the doorway in the lunge position, placing your forearms on the sides of the door jamb, elbows just below the shoulders. Then slowly push your chest forward.",
+    "kcalBurnedOnOneKgPerMinute": 4.3,
+    "maleAnimPath": "raw/exercise_men_chest_stretch.json",
+    "femaleAnimPath": "raw/exercise_woman_chest_stretch.json"
+  },
+  {
+    "id": 70,
+    "title": "Cobra stretch",
+    "description": "While lying on your stomach, place your slightly bent arms at the elbows on the floor. Lift your chest up and stay in this position for a few seconds.",
+    "kcalBurnedOnOneKgPerMinute": 3.2,
+    "maleAnimPath": "raw/exercise_men_cobra_stretch.json",
+    "femaleAnimPath": "raw/exercise_woman_cobra_stretch.json"
+  },
+  {
+    "id": 71,
+    "title": "Floor push-ups",
+    "description": "Take a prone position , keep the body straight .Get up due to the strength of your arms.The exercise involves the muscles of the chest, back and legs.As well as triceps and deltoids.",
+    "kcalBurnedOnOneKgPerMinute": 7.5,
+    "maleAnimPath": "raw/exercise_men_floor_push_ups.json",
+    "femaleAnimPath": "raw/exercise_woman_floor_push_ups.json"
+  },
+  {
+    "id": 72,
+    "title": "Chair push-ups",
+    "description": "Take the initial polo position lying down with emphasis on a chair or bench .The body is straight.Perform the exercise due to the strength of the hands.",
+    "kcalBurnedOnOneKgPerMinute": 6.4,
+    "maleAnimPath": "raw/exercise_men_chair_push_ups.json",
+    "femaleAnimPath": "raw/exercise_woman_chair_push_ups.json"
+  },
+  {
+    "id": 73,
+    "title": "Close-grip push-ups",
+    "description": "The starting position is lying down with a stop. Connect the thumbs and index fingers under the breast in the shape of a diamond and perform push-ups.",
+    "kcalBurnedOnOneKgPerMinute": 7.3,
+    "maleAnimPath": "raw/exercise_men_push_ups_with_a_narrow_grip.json",
+    "femaleAnimPath": "raw/exercise_woman_push_ups_with_a_narrow_grip.json"
+  },
+  {
+    "id": 74,
+    "title": "Plank",
+    "description": "Take the emphasis lying on your elbows , your hands and toes touch the floor, your back is flat.Stay in this position as long as you can .With the help of the plank, the muscles of the back and abdomen are perfectly strengthened, the muscles of the shoulders are also involved.",
+    "kcalBurnedOnOneKgPerMinute": 4.5,
+    "maleAnimPath": "raw/exercise_men_plank.json",
+    "femaleAnimPath": "raw/exercise_woman_plank.json"
+  },
+  {
+    "id": 75,
+    "title": "Diagonally push-ups",
+    "description": "The starting position is a prone position, with one arm higher and the other lower relative to the shoulder. Perform a push-up and change the position of your hands. Don't forget to keep the body straight.",
+    "kcalBurnedOnOneKgPerMinute": 6.7,
+    "maleAnimPath": "raw/exercise_men_diagonally_push_ups.json",
+    "femaleAnimPath": "raw/exercise_woman_diagonally_push_ups.json"
+  },
+  {
+    "id": 76,
+    "title": "Climber",
+    "description": "In the prone position , pull up one knee to the chest , then change legs in the jump .Repeat the exercise the required number of times . All major muscle groups are involved in the exercise, and it is also useful for strengthening the cardiovascular system.",
+    "kcalBurnedOnOneKgPerMinute": 7.1,
+    "maleAnimPath": "raw/exercise_men_climber.json",
+    "femaleAnimPath": "raw/exercise_woman_climber.json"
+  },
+  {
+    "id": 77,
+    "title": "Push up to alternating arm raise",
+    "description": "Take the initial polo position lying down with emphasis on a chair or bench. The body is straight. Perform the exercise due to the strength of the hands.",
+    "kcalBurnedOnOneKgPerMinute": 6.5,
+    "maleAnimPath": "raw/exercise_men_push_up_to_alternating_arm_raise.json",
+    "femaleAnimPath": "raw/exercise_woman_push_up_to_alternating_arm_raise.json"
+  },
+
+  {
+    "id": 79,
+    "title": "Jumping push-ups",
+    "description": "From the position of the combat stance , we throw out direct strikes at speed .Do not forget to return your hands to the initial position -head protection. .((Rack-The hands are folded into a fist and are presented at the level of the jaw.Elbows pressed against the body.The head is slightly lowered.The back is slightly stooped.)",
+    "kcalBurnedOnOneKgPerMinute": 8.0,
+    "maleAnimPath": "raw/exercise_men_jumping_push_ups.json",
+    "femaleAnimPath": "raw/exercise_woman_jumping_push_ups.json"
+  },
+  {
+    "id": 80,
+    "title": "Push-ups from the floor with a twist",
+    "description": "Stand up straight, legs slightly apart, do not bend the knee joints. Make sure that the back remains straight, the abdominal and buttock muscles are slightly tense. Tilt your head, trying to stretch the back of your head up.",
+    "kcalBurnedOnOneKgPerMinute": 7.3,
+    "maleAnimPath": "raw/exercise_men_push_ups_from_the_floor_with_a_twist.json",
+    "femaleAnimPath": "raw/exercise_woman_push_ups_from_the_floor_with_a_twist.json"
+  },
+  {
+    "id": 81,
+    "title": "Direct hits for speed",
+    "description": "Take the emphasis lying down .Perform a push - up .When lifting to the upper position , rotate the body and pull the right arm up .Repeat for the other hand .An excellent exercise for the chest muscles , shoulder girdle and core muscles .",
+    "kcalBurnedOnOneKgPerMinute": 8.5,
+    "maleAnimPath": "raw/exercise_men_direct_hits_for_speed.json",
+    "femaleAnimPath": "raw/exercise_woman_direct_hits_for_speed.json"
+  },
+  {
+    "id": 82,
+    "title": "High lift of the thigh",
+    "description": "From the position of the combat stance, we throw out direct blows at speed. Do not forget to return your hands to the initial position - head protection. The rack-The hands are folded into a fist and placed at the level of the jaw. Elbows pressed against the body. The head is slightly lowered.",
+    "kcalBurnedOnOneKgPerMinute": 4.3,
+    "maleAnimPath": "raw/exercise_men_high_lift_of_the_thigh.json",
+    "femaleAnimPath": "raw/exercise_woman_high_lift_of_the_thigh.json"
+  },
+  {
+    "id": 83,
+    "title": "Straight lunges with subsidence",
+    "description": "Take a lying position on your back. Bend your knees, feet on the floor, hands palms down along the body, raise the pelvis as high as possible, making a bridge.",
+    "kcalBurnedOnOneKgPerMinute": 4.1,
+    "maleAnimPath": "raw/exercise_men_straight_lunges_with_subsidence.json",
+    "femaleAnimPath": "raw/exercise_woman_straight_lunges_with_subsidence.json"
+  },
+  {
+    "id": 84,
+    "title": "Side swings with the right leg",
+    "description": "Take a wide step forward so that the knee forms a right angle, and the knee of the leg remaining behind is about a centimeter from the floor.",
+    "kcalBurnedOnOneKgPerMinute": 3.9,
+    "maleAnimPath": "raw/exercise_men_side_swings_with_the_right_leg.json",
+    "femaleAnimPath": "raw/exercise_woman_side_swings_with_the_right_leg.json"
+  },
+  {
+    "id": 85,
+    "title": "Lateral swings with the left leg",
+    "description": "Lie on your side with your right arm under your head.lift your upper leg and return to the starting position.after completing the exercise several times",
+    "kcalBurnedOnOneKgPerMinute": 4.7,
+    "maleAnimPath": "raw/exercise_men_lateral_swings_with_the_left_leg.json",
+    "femaleAnimPath": "raw/exercise_woman_lateral_swings_with_the_left_leg.json"
+  },
+  {
+    "id": 86,
+    "title": "Bending forward",
+    "description": "Lie on your side with your right arm under your head.lift your upper leg and return to the starting position.after completing the exercise several times",
+    "kcalBurnedOnOneKgPerMinute": 3.8,
+    "maleAnimPath": "raw/exercise_men_bending_forward.json",
+    "femaleAnimPath": "raw/exercise_woman_bending_forward.json"
+  },
+  {
+    "id": 87,
+    "title": "Sitting forward bends",
+    "description": "Stand up straight, put your feet shoulder-width apart, straighten your back. Tighten your abs and, keeping your back straight, lower the body down, turning in the hip joints. Stay at the bottom point for 1-2 seconds and return to the starting position due to the efforts of the gluteal muscles.",
+    "kcalBurnedOnOneKgPerMinute": 3.9,
+    "maleAnimPath": "raw/exercise_men_sitting_forward_bends.json",
+    "femaleAnimPath": "raw/exercise_woman_sitting_forward_bends.json"
+  },
+  {
+    "id": 88,
+    "title": "Stretching the left tendon",
+    "description": "Sit on the floor with your feet hip-width apart. Raise your arms to shoulder height, slightly lower your chin to your chest. At the exit, pull in your stomach and try to reach your toes with your hands. On exhalation, return to the starting position, repeat the exercise.",
+    "kcalBurnedOnOneKgPerMinute": 3.7,
+    "maleAnimPath": "raw/exercise_men_stretching_the_left_tendon.json",
+    "femaleAnimPath": "raw/exercise_woman_stretching_the_left_tendon.json"
+  },
+  {
+    "id": 89,
+    "title": "Stretching the right tendon",
+    "description": "Sit on the floor, stretching your left leg away from you.Without bending the knee, reach with the palm of your hand to the base of the foot. Fix your position for the right time.",
+    "kcalBurnedOnOneKgPerMinute": 3.7,
+    "maleAnimPath": "raw/exercise_men_stretching_the_right_tendon.json",
+    "femaleAnimPath": "raw/exercise_woman_stretching_the_right_tendon.json"
+  },
+  {
+    "id": 90,
+    "title": "Seated butterfly pose",
+    "description": "Sit on the floor, stretching your right leg away from you.Without bending the knee, reach with the palm of your hand to the base of the foot. Fix your position for the right time.",
+    "kcalBurnedOnOneKgPerMinute": 4.2,
+    "maleAnimPath": "raw/exercise_men_seated_butterfly_pose.json",
+    "femaleAnimPath": "raw/exercise_woman_seated_butterfly_pose.json"
+  },
+  {
+    "id": 91,
+    "title": "Butterfly pose with an inclination forward",
+    "description": "Sit on the floor. Bring the feet together to each other, pull them as close as possible to the groin area.Start at a fast pace to lower your knees to the floor and raise your legs, returning to the starting position. The movement should be similar to the wings of a butterfly.",
+    "kcalBurnedOnOneKgPerMinute": 4.1,
+    "maleAnimPath": "raw/exercise_men_butterfly_pose_with_an_inclination_forward.json",
+    "femaleAnimPath": "raw/exercise_woman_butterfly_pose_with_an_inclination_forward.json"
+  },
+  {
+    "id": 92,
+    "title": "Split with legs wide apart",
+    "description": "Sit on the floor. Bring the feet together to each other, pull them as close as possible to the groin area. Sitting in the butterfly make a tilt to the floor, pressing your feet to your chest with your hands.",
+    "kcalBurnedOnOneKgPerMinute": 3.8,
+    "maleAnimPath": "raw/exercise_men_split_with_legs_wide_apart.json",
+    "femaleAnimPath": "raw/exercise_woman_split_with_legs_wide_apart.json"
+  },
+  {
+    "id": 93,
+    "title": "Forward tilted twine",
+    "description": "Spread your legs and perform several forward bends. Try to stay in the lower position for a few seconds every time. Rest your palms on the floor and start slowly and evenly spreading your feet to the sides. Bend your elbows and try to lower your chest to the floor. To avoid overstrain of the knee ligaments, you need to rest your heels on the floor, and pull your socks up. Ideally, you should lower your legs, pelvis and stomach to the floor, and then sit down and straighten up.",
+    "kcalBurnedOnOneKgPerMinute": 3.9,
+    "maleAnimPath": "raw/exercise_men_forward_tilted_twine.json",
+    "femaleAnimPath": "raw/exercise_woman_forward_tilted_twine.json"
+  },
+  {
+    "id": 94,
+    "title": "Balls",
+    "description": "Spread your legs and perform several forward bends. Try to stay in the lower position for a few seconds every time. Rest your palms on the floor and start slowly and evenly spreading your feet to the sides. Bend your elbows and try to lower your chest to the floor. To avoid overstrain of the knee ligaments, you need to rest your heels on the floor, and pull your socks up. Ideally, you should lower your legs, pelvis and stomach to the floor, and then sit down and straighten up.",
+    "kcalBurnedOnOneKgPerMinute": 7.8,
+    "maleAnimPath": "raw/exercise_men_balls.json",
+    "femaleAnimPath": "raw/exercise_woman_balls.json"
+  },
+  {
+    "id": 95,
+    "title": "Output weighing",
+    "description": "Lie down horizontally on our back, with our feet in the direction of the wall. In the reclining position, the legs are in a horizontal position, the back and shoulder blades are raised. Your task is to throw tennis balls into the wall while remaining in an elevated position and catch them .",
+    "kcalBurnedOnOneKgPerMinute": 6.9,
+    "maleAnimPath": "raw/exercise_men_output_weighing.json",
+    "femaleAnimPath": "raw/exercise_woman_output_weighing.json"
+  },
+  {
+    "id": 96,
+    "title": "In a jump, throwing out arms with a load",
+    "description": "For this exercise, you will need a kettlebell (it is recommended to do the selection of your weight according to weight and experience). Standing straight, it is necessary to lift the weight along the body body to the maximum height with both hands.",
+    "kcalBurnedOnOneKgPerMinute": 7.3,
+    "maleAnimPath": "raw/exercise_men_in_a_jump_throwing_out_arms_with_a_load.json",
+    "femaleAnimPath": "raw/exercise_woman_in_a_jump_throwing_out_arms_with_a_load.json"
+  },
+  {
+    "id": 97,
+    "title": "Push-ups with alternate ball rolling",
+    "description": "In the jump, throwing out hands with a load (neck) at an angle of 45 degrees up.",
+    "kcalBurnedOnOneKgPerMinute": 7.6,
+    "maleAnimPath": "raw/exercise_men_push_ups_with_alternate_ball_rolling.json",
+    "femaleAnimPath": "raw/exercise_woman_push_ups_with_alternate_ball_rolling.json"
+  },
+  {
+    "id": 99,
+    "title": "Pull-ups",
+    "description": "Push-ups with alternate rolling of the ball under the supporting arm.",
+    "kcalBurnedOnOneKgPerMinute": 6.2,
+    "maleAnimPath": "raw/exercise_men_pull_ups.json",
+    "femaleAnimPath": "raw/exercise_woman_pull_ups.json"
+  },
+  {
+    "id": 100,
+    "title": "Pull-ups on a low horizontal bar",
+    "description": "From a sitting position- the legs are stretched out in front of you, you need to rise to a horizontal position without the help of hands with weight retention at the chest.  (weight selection is recommended to be done according to your weight and experience)",
+    "kcalBurnedOnOneKgPerMinute": 6.4,
+    "maleAnimPath": "raw/exercise_men_pull_ups_on_a_low_horizontal_bar.json",
+    "femaleAnimPath": "raw/exercise_woman_pull_ups_on_a_low_horizontal_bar.json"
+  },
+  {
+    "id": 101,
+    "title": "Chin up hold",
+    "description": "Straight closed grip. The grip is at the shoulder width level. Keep your head straight, looking forward. Pull your body up, trying to reach the crossbar with your chest. Slowly lower your body gradually unbending your arms.",
+    "kcalBurnedOnOneKgPerMinute": 6.3,
+    "maleAnimPath": "raw/exercise_men_chin_up_hold.json",
+    "femaleAnimPath": "raw/exercise_woman_chin_up_hold.json"
+  },
+  {
+    "id": 102,
+    "title": "Pull-ups with alternating",
+    "description": "Bring the shoulder blades to the spine and remove the shoulders from the ears; Pull your chest up to the crossbar, continuing to reduce the shoulder blades, and strain the widest muscles; Touch the crossbar, then lower the body back down; Contract your muscles on the exhale, lower yourself on the inhale; Do the right number of repetitions, maintaining a straight body position, and toned buttocks",
+    "kcalBurnedOnOneKgPerMinute": 6.3,
+    "maleAnimPath": "raw/exercise_men_pull_ups_with_alternating.json",
+    "femaleAnimPath": "raw/exercise_woman_pull_ups_with_alternating.json"
+  },
+  {
+    "id": 103,
+    "title": "Raise your knees while hanging",
+    "description": "No descrption",
+    "kcalBurnedOnOneKgPerMinute": 6.1,
+    "maleAnimPath": "raw/exercise_men_raise_your_knees_while_hanging.json",
+    "femaleAnimPath": "raw/exercise_woman_raise_your_knees_while_hanging.json"
+  },
+  {
+    "id": 104,
+    "title": "One-arm chin-ups",
+    "description": "The movements should be smooth and neat. To avoid injury. The elbows should always be slightly bent to prevent the development of inflammation of the distal tendon of the biceps of the shoulder.",
+    "kcalBurnedOnOneKgPerMinute": 7.0,
+    "maleAnimPath": "raw/exercise_men_one_arm_chin_ups.json",
+    "femaleAnimPath": "raw/exercise_woman_one_arm_chin_ups.json"
+  },
+  {
+    "id": 105,
+    "title": "Pull-ups behind the back",
+    "description": "In any way, take the vis on the horizontal bar, palms slightly wider than the shoulders. Stabilize the shoulders by moving them away from the ears, slightly tighten the transverse muscle by retracting the abdomen. Remove the rocking of the body, breathe calmly. Slightly bend your knees if you are bringing bent legs, or straighten them if the goal is to lift the socks to the crossbar",
+    "kcalBurnedOnOneKgPerMinute": 7.0,
+    "maleAnimPath": "raw/exercise_men_pull_ups_behind_the_back.json",
+    "femaleAnimPath": "raw/exercise_woman_pull_ups_behind_the_back.json"
+  },
+  {
+    "id": 106,
+    "title": "Raising legs to the bar",
+    "description": "Pull up on one hand",
+    "kcalBurnedOnOneKgPerMinute": 7.1,
+    "maleAnimPath": "raw/exercise_men_raising_legs_to_the_bar.json",
+    "femaleAnimPath": "raw/exercise_woman_raising_legs_to_the_bar.json"
+  },
+  {
+    "id": 107,
+    "title": "Corner",
+    "description": "Inhale and exhale smoothly and under control pull up due to the contraction of the back muscles. When you reach the top point of the trajectory, get the heads behind the crossbar. Pull up to the position when the crossbar is at the level of the back of the head, fix yourself for 1-2 counts. Slowly and under control, return to the original position. Repeat the specified number of times.",
+    "kcalBurnedOnOneKgPerMinute": 4.3,
+    "maleAnimPath": "raw/exercise_men_corner.json",
+    "femaleAnimPath": "raw/exercise_woman_corner.json"
+  },
+  {
+    "id": 108,
+    "title": "Side tilts",
+    "description": "Vis with a grip from above, lift your legs to the crossbar until you touch the neck and lower them down. The position of the vis is fixed. Slight bending and dilution of the legs is allowed. It is forbidden to perform movements in one fell swoop.",
+    "kcalBurnedOnOneKgPerMinute": 4.9,
+    "maleAnimPath": "raw/exercise_men_body_turns.json.json",
+    "femaleAnimPath": "raw/exercise_woman_body_turns.json"
+  },
+  {
+    "id": 109,
+    "title": "Bridge",
+    "description": "Lie on your back with your arms and legs stretched out.at the same time , lift the body and legs until the hands come into contact with the socks .Return to the starting position .Do the required number of repetitions.",
+    "kcalBurnedOnOneKgPerMinute": 5.2,
+    "maleAnimPath": "raw/exercise_men_bridge.json",
+    "femaleAnimPath": "raw/exercise_woman_bridge.json"
+  },
+  {
+    "id": 110,
+    "title": "Bicycle",
+    "description": "lie on your back, bend your legs at the knees, your arms lie along the body. Lift the body off the floor and alternately touch each heel with the fingers of the same hand .",
+    "kcalBurnedOnOneKgPerMinute": 4.3,
+    "maleAnimPath": "raw/exercise_men_bicycle.json",
+    "femaleAnimPath": "raw/exercise_woman_bicycle.json"
+  },
+  {
+    "id": 111,
+    "title": "Child's pose",
+    "description": "The starting position is lying on your back .Bend your knees.feet on the floor.Hands palms down along the body .Raise the pelvis as high as possible by making a bridge",
+    "kcalBurnedOnOneKgPerMinute": 3.2,
+    "maleAnimPath": "raw/exercise_men_child_s_pose.json",
+    "femaleAnimPath": "raw/exercise_woman_child_s_pose.json"
+  },
+  {
+    "id": 112,
+    "title": "Hyperextension",
+    "description": "Lie on your back, put your hands under your head, raise your knees and turn the bicycle pedals Then start bending forward, touching the opposite knee with your elbows.",
+    "kcalBurnedOnOneKgPerMinute": 4.2,
+    "maleAnimPath": "raw/exercise_men_hyperextension.json",
+    "femaleAnimPath": "raw/exercise_woman_hyperextension.json"
+  },
+  {
+    "id": 113,
+    "title": "Raising the legs",
+    "description": "The initial position is with knees and palms on the floor . Slightly extend your arms forward , spread your knees and bring your feet together .Inhale , then exhale and bring the body back .Try to make the buttocks touch the heels . Relax your elbows , touch the floor with your forehead and try to lower your chest to the floor .Stay in this position .",
+    "kcalBurnedOnOneKgPerMinute": 3.2,
+    "maleAnimPath": "raw/exercise_men_raising_the_legs.json",
+    "femaleAnimPath": "raw/exercise_woman_raising_the_legs.json"
+  },
+  {
+    "id": 114,
+    "title": "Lateral torso movements",
+    "description": "Stand up straight, legs slightly apart, do not bend the knee joints. Make sure that the back remains straight, the abdominal and buttock muscles are slightly tense. Tilt your head, trying to stretch the back of your head up.",
+    "kcalBurnedOnOneKgPerMinute": 3.1,
+    "maleAnimPath": "raw/exercise_men_lateral_torso_movements.json",
+    "femaleAnimPath": "raw/exercise_woman_lateral_torso_movements.json"
+  },
+  {
+    "id": 115,
+    "title": "Torso lift",
+    "description": "Lie on your back and put your hands under your hips for support. Lift straight legs up to form a right angle with the floor. Slowly lower your legs down and repeat the exercise.",
+    "kcalBurnedOnOneKgPerMinute": 2.7,
+    "maleAnimPath": "raw/exercise_men_torso_lift.json",
+    "femaleAnimPath": "raw/exercise_woman_torso_lift.json"
+  },
+  {
+    "id": 116,
+    "title": "Raising the torso with hands",
+    "description": "From the assumed position, lying on the right side, leaning on the elbow and on the outside of the foot, by the force of the lateral muscles of the press, lift the hips off the floor as high as possible, take a 2-second pause and slowly descend. As soon as you feel that your hip has touched the floor, lift it up again.",
+    "kcalBurnedOnOneKgPerMinute": 3.7,
+    "maleAnimPath": "raw/exercise_men_raising_the_torso_with_hands.json",
+    "femaleAnimPath": "raw/exercise_woman_raising_the_torso_with_hands.json"
+  },
+  {
+    "id": 117,
+    "title": "Lying on your back",
+    "description": "lying on your back with your knees bent and your feet resting on the floor, your arms can be folded crosswise on your chest, located behind your head. At the beginning of the first phase, there is movement, twisting of the body due to the tension of the abdominal muscles. In the second phase, twisting occurs in the hip joint due to the tension of the thigh muscles and the separation of the lower back from the bench. In the third— relaxation of the thigh muscles and extension in the hip joint, then the same with the abdominal muscles.",
+    "kcalBurnedOnOneKgPerMinute": 1.8,
+    "maleAnimPath": "raw/exercise_men_lying_on_your_back.json",
+    "femaleAnimPath": "raw/exercise_woman_lying_on_your_back.json"
+  },
+  {
+    "id": 118,
+    "title": "High plank",
+    "description": "Lie on your back, hands behind your head. Lift the body as high as possible from the floor. Slowly return to the prone position and repeat the exercise.",
+    "kcalBurnedOnOneKgPerMinute": 3.1,
+    "maleAnimPath": "raw/exercise_men_plank.json",
+    "femaleAnimPath": "raw/exercise_woman_plank.json"
+  },
+  {
+    "id": 119,
+    "title": "Plank with leg raises",
+    "description": "No description",
+    "kcalBurnedOnOneKgPerMinute": 3.3,
+    "maleAnimPath": "raw/exercise_men_plank_with_leg_raises.json",
+    "femaleAnimPath": "raw/exercise_woman_plank_with_leg_raises.json"
+  },
+  {
+    "id": 120,
+    "title": "Raising arms plank",
+    "description": "Take the emphasis lying on your elbows, your hands and toes touch the floor, your back is flat. Stay in this position as long as you can. With the help of the plank, the muscles of the back and abdomen are perfectly strengthened, the muscles of the shoulders are also involved.",
+    "kcalBurnedOnOneKgPerMinute": 3.0,
+    "maleAnimPath": "raw/exercise_men_raising_arms_plank.json",
+    "femaleAnimPath": "raw/exercise_woman_raising_arms_plank.json"
+  },
+  {
+    "id": 121,
+    "title": "Plank standing on the right side",
+    "description": "Take the emphasis lying on your elbows, your hands and toes touch the floor, your back is flat. Stay in this position as long as you can. With the help of the plank, the muscles of the back and abdomen are perfectly strengthened, the muscles of the shoulders are also involved.",
+    "kcalBurnedOnOneKgPerMinute": 3.0,
+    "maleAnimPath": "raw/exercise_men_plank_standing_on_the_right_side.json",
+    "femaleAnimPath": "raw/exercise_woman_plank_standing_on_the_right_side.json"
+  },
+  {
+    "id": 122,
+    "title": "Plank standing on the left side",
+    "description": "Take the emphasis lying on your elbows, your hands and toes touch the floor, your back is flat. Stay in this position as long as you can. With the help of the plank, the muscles of the back and abdomen are perfectly strengthened, the muscles of the shoulders are also involved.",
+    "kcalBurnedOnOneKgPerMinute": 3.0,
+    "maleAnimPath": "raw/exercise_men_plank_standing_on_the_left_side.json",
+    "femaleAnimPath": "raw/exercise_woman_plank_standing_on_the_left_side.json"
+  },
+  {
+    "id": 123,
+    "title": "Knee push-ups",
+    "description": "Lie on your side. Put your elbow on the floor and lean on it as comfortably as possible. The forearm should completely touch the floor.Lift your hips off the mat. Keep your torso straight. The body should resemble a stretched string. Fix the position of the body and stay in this position as long as possible.Take a little rest, and then lie down on the second side and do the same.",
+    "kcalBurnedOnOneKgPerMinute": 4.1,
+    "maleAnimPath": "raw/exercise_men_knee_push_ups.json",
+    "femaleAnimPath": "raw/exercise_woman_knee_push_ups.json"
+  },
+  {
+    "id": 124,
+    "title": "Superman and swimmer",
+    "description": "Lie on your side. Put your elbow on the floor and lean on it as comfortably as possible. The forearm should completely touch the floor.Lift your hips off the mat. Keep your torso straight. The body should resemble a stretched string. Fix the position of the body and stay in this position as long as possible.Take a little rest, and then lie down on the second side and do the same.",
+    "kcalBurnedOnOneKgPerMinute": 3.8,
+    "maleAnimPath": "raw/exercise_men_superman_and_swimmer.json",
+    "femaleAnimPath": "raw/exercise_woman_superman_and_swimmer.json"
+  },
+  {
+    "id": 125,
+    "title": "Caterpillar",
+    "description": "The starting position is the usual position for push-ups, but with an emphasis on the knees and raised feet.Do push - ups .",
+    "kcalBurnedOnOneKgPerMinute": 3.1,
+    "maleAnimPath": "raw/exercise_men_caterpillar.json",
+    "femaleAnimPath": "raw/exercise_woman_caterpillar.json"
+  },
+  {
+    "id": 126,
+    "title": "Reverse push-ups",
+    "description": "Lying on your stomach , stretch your arms straight over your head .Take turns lifting the opposite arm and leg .",
+    "kcalBurnedOnOneKgPerMinute": 4.3,
+    "maleAnimPath": "raw/exercise_men_reverse_push_ups.json",
+    "femaleAnimPath": "raw/exercise_woman_reverse_push_ups.json"
+  },
+  {
+    "id": 127,
+    "title": "Alternate hand push-ups",
+    "description": "Feet shoulder - width apart .Bend the body and walk forward on your hands as far as you can, then return on your hands back.Repeat the exercise .",
+    "kcalBurnedOnOneKgPerMinute": 4.6,
+    "maleAnimPath": "raw/exercise_men_alternate_hand_push_ups.json",
+    "femaleAnimPath": "raw/exercise_woman_alternate_hand_push_ups.json"
+  }
+]

@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Fitnes" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/text_blue</item>
+        <item name="colorPrimaryVariant">@color/text_blue</item>
+        <item name="colorOnPrimary">@color/main_background_gray</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/text_blue</item>
+        <item name="colorSecondaryVariant">@color/text_blue</item>
+        <item name="colorOnSecondary">@color/main_background_gray</item>
+<!--        делаем статус бар прозрачным-->
+        <item name="android:windowBackground">@drawable/layout_background_gradient_blue</item>
+        <item name="toolbarStyle">@style/Widget.Toolbar</item>
+        <item name="android:statusBarColor">#00000000</item>
+    </style>
+    <!--        стиль статус бара -->
+    <style name="Widget.Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="android:background">@drawable/layout_background_gradient_blue</item>
+    </style>
+
+
+
+    <!-- Стиль для bottom navigation view не работает смена шрифта и размера текста -->
+    <style name="MyBottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="itemIconTint">@drawable/bottom_nav_icons_selector</item>
+        <item name="itemTextColor">@drawable/bottom_nav_text_selector</item>
+        <item name="android:textSize">4sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="itemTextAppearanceActive">@style/MyBottomNavigationView.TextAppearance</item>
+        <item name="itemTextAppearanceInactive">@style/MyBottomNavigationView.TextAppearance</item>
+    </style>
+    <style name="MyBottomNavigationView.TextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">4sp</item>
+        <item name="fontFamily">@font/raleway_regular</item>
+    </style>
+
+
+    <style name="MyToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/righteous_regular</item>
+    </style>
+</resources>

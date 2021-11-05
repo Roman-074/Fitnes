@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/drawable/fragment_progress_score_until_next_bg.xml" value="0.365625" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/drawable/fragment_progress_total_score_bg.xml" value="0.36614583333333334" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/drawable/profile_current_date_background_elipse.xml" value="0.37135416666666665" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/drawable/progress_img_source_advanced_lion.xml" value="0.37864583333333335" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/drawable/workout_over_icon_add.xml" value="0.37135416666666665" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/drawable/workout_over_icon_edit.xml" value="0.37135416666666665" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/dialog_fragment_confirm_exit_exercise_info_.xml" value="0.35520833333333335" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/dialog_fragment_reminder.xml" value="0.35520833333333335" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/fragment_exercise_info.xml" value="0.3569230769230769" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/fragment_horizontal_bar_test_approaches_count.xml" value="0.35520833333333335" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/fragment_power_training.xml" value="0.35520833333333335" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/fragment_profile.xml" value="0.12248563218390805" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/fragment_progress.xml" value="0.33" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/fragment_registration_photo.xml" value="0.35520833333333335" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/fragment_workout_over.xml" value="0.25" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/fragment_workouts.xml" value="0.35520833333333335" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/fragment_workouts_for_specific_muscle_groups.xml" value="0.35520833333333335" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/recycle_item_exercise.xml" value="0.35520833333333335" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/recycle_item_profile_history_date.xml" value="0.35520833333333335" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/recycle_item_profile_history_exercises.xml" value="0.35520833333333335" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/recycle_item_workouts.xml" value="0.35520833333333335" />
+        <entry key="..\:/Programming/Projects/StudioProjects/fitnes/app/src/main/res/layout/toolbar_horizontal_bar_layout.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33125" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.33125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

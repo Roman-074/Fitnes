@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/progressFragment">
+
+    <fragment
+        tools:layout="@layout/fragment_profile"
+        android:id="@+id/profileFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.profile.ProfileFragment"
+        android:label="ProfileFragment">
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="true" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_workouts"
+        android:id="@+id/workoutsFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.WorkoutsFragment"
+        android:label="WorkoutsFragment">
+
+        <action
+            android:id="@+id/action_workoutsFragment_to_morningGymnasticFragment"
+            app:destination="@id/morningGymnasticFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="myapp://fitness.com/workoutlist" />
+        <action
+            android:id="@+id/action_workoutsFragment_to_sevenDaysTrainingCourseFragment"
+            app:destination="@id/sevenDaysTrainingCourseFragment" />
+        <action
+            android:id="@+id/action_workoutsFragment_to_workoutsForSpecificMuscleGroupsFragment"
+            app:destination="@id/workoutsForSpecificMuscleGroupsFragment" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="true" />
+        <action
+            android:id="@+id/action_workoutsFragment_to_powerTrainingFragment"
+            app:destination="@id/powerTrainingFragment" />
+        <action
+            android:id="@+id/action_workoutsFragment_to_horizontalBarStartTestFragment"
+            app:destination="@id/horizontalBarStartTestFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_progress"
+        android:id="@+id/progressFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.progress.ProgressFragment"
+        android:label="ProgressFragment">
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="true" />
+        <action
+            android:id="@+id/action_progressFragment_to_workoutsFragment"
+            app:destination="@id/workoutsFragment" />
+        <action
+            android:id="@+id/action_progressFragment_to_upgradeActivityLevelDialog"
+            app:destination="@id/upgradeActivityLevelDialog" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_morning_gymnastic"
+        android:id="@+id/morningGymnasticFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.morningGymnastic.MorningGymnasticFragment"
+        android:label="MorningGymnasticFragment">
+        <argument
+            android:name="workoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_morningGymnasticFragment_to_exerciseInfoFragment"
+            app:destination="@id/exerciseInfoFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_exercise_info"
+        android:id="@+id/exerciseInfoFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.exerciseInfo.ExerciseInfoFragment"
+        android:label="ExerciseInfoFragment">
+        <action
+            android:id="@+id/action_exerciseInfoFragment_to_workoutOverFragment"
+            app:destination="@id/workoutOverFragment"
+            app:popUpTo="@id/workoutsFragment" />
+        <argument
+            android:name="subWorkoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="workoutModelId"
+            app:argType="integer" />
+
+        <argument
+            android:name="userGender"
+            app:argType="string" />
+        <argument
+            android:name="isChangeProgress"
+            app:argType="boolean" />
+        <argument
+            android:name="isExistWarmUp"
+            app:argType="boolean" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_workout_over"
+        android:id="@+id/workoutOverFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.workoutOver.WorkoutOverFragment"
+        android:label="WorkoutOverFragment">
+        <action
+            android:id="@+id/action_workoutOverFragment_to_morningGymnasticFragment"
+            app:destination="@id/morningGymnasticFragment"
+            app:popUpTo="@id/workoutsFragment" />
+        <argument
+            android:name="workoutId"
+            app:argType="integer" />
+        <argument
+            android:name="time"
+            app:argType="long" />
+        <argument
+            android:name="subworkoutId"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_workoutOverFragment_to_editCurrWeightFragment"
+            app:destination="@id/editCurrWeightFragment" />
+        <action
+            android:id="@+id/action_workoutOverFragment_to_reminderFragment"
+            app:destination="@id/reminderFragment" />
+        <action
+            android:id="@+id/action_workoutOverFragment_to_workoutsFragment"
+            app:destination="@id/workoutsFragment"
+            app:popUpTo="@id/progressFragment" />
+
+    </fragment>
+    <dialog
+        tools:layout="@layout/dialog_fragment_upgrade_activity_level"
+        android:id="@+id/upgradeActivityLevelDialog"
+        android:name="hedgehog.tech.fitnes.ui.main.progress.ugradeActivityLevel.UpgradeActivityLevelDialogFragment"
+        android:label="UpgradeActivityLevelDialog" >
+        <argument
+            android:name="exercisesCount"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="true" />
+    </dialog>
+    <fragment
+        tools:layout="@layout/fragment_registration_curr_weight"
+        android:id="@+id/editCurrWeightFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.workoutOver.editCurrWeight.EditCurrWeightFragment"
+        android:label="EditCurrWeightFragment">
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+    </fragment>
+
+    <fragment
+        tools:layout="@layout/fragment_reminder"
+        android:id="@+id/reminderFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.workoutOver.reminder.ReminderFragment"
+        android:label="ReminderFragment">
+        <action
+            android:id="@+id/action_reminderFragment_to_reminderDialogFragment"
+            app:destination="@id/reminderDialogFragment" />
+        <argument
+            android:name="workoutId"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+    </fragment>
+    <dialog
+        tools:layout="@layout/dialog_fragment_reminder"
+        android:id="@+id/reminderDialogFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.workoutOver.reminder.ReminderDialogFragment"
+        android:label="ReminderDialogFragment">
+        <argument
+            android:name="workoutId"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+    </dialog>
+    <fragment
+        tools:layout="@layout/fragment_seven_days_training_course"
+        android:id="@+id/sevenDaysTrainingCourseFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.sevenDaysTrainingCourse.SevenDaysTrainingCourseFragment"
+        android:label="SevenDaysTrainingCourseFragment">
+
+        <argument
+            android:name="workoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_sevenDaysTrainingCourseFragment_to_sevenDaysTrainingCourseSubWorkoutFragment"
+            app:destination="@id/sevenDaysTrainingCourseSubWorkoutFragment" />
+        <action
+            android:id="@+id/action_sevenDaysTrainingCourseFragment_to_exerciseInfoFragment"
+            app:destination="@id/exerciseInfoFragment" />
+
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_seven_days_training_course"
+        android:id="@+id/sevenDaysTrainingCourseSubWorkoutFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.sevenDaysTrainingCourse.sevenDaysTrainingCourseSubWorkout.SevenDaysTrainingCourseSubWorkoutFragment"
+        android:label="SevenDaysTrainingCourseSubWorkoutFragment">
+
+        <argument
+            android:name="subWorkoutId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_sevenDaysTrainingCourseSubWorkoutFragment_to_exerciseInfoFragment"
+            app:destination="@id/exerciseInfoFragment" />
+        <argument
+            android:name="workoutModelId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_sevenDaysTrainingCourseSubWorkoutFragment_to_warmupFragment"
+            app:destination="@id/warmupFragment" />
+        <argument
+            android:name="isChangeProgress"
+            app:argType="boolean" />
+        <argument
+            android:name="day_number"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_warmup"
+        android:id="@+id/warmupFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.warmup.WarmupFragment"
+        android:label="WarmupFragment">
+
+        <action
+            android:id="@+id/action_warmupFragment_to_exerciseInfoFragment"
+            app:destination="@id/exerciseInfoFragment"
+            app:popUpTo="@id/sevenDaysTrainingCourseSubWorkoutFragment" />
+
+        <argument
+            android:name="subWorkoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="workoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="workoutType"
+            app:argType="integer" />
+        <argument
+            android:name="userGender"
+            app:argType="string" />
+        <argument
+            android:name="isChangeProgress"
+            app:argType="boolean" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_workouts_for_specific_muscle_groups"
+        android:id="@+id/workoutsForSpecificMuscleGroupsFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.workoutsForSpecificMuscleGroups.WorkoutsForSpecificMuscleGroupsFragment"
+        android:label="WorkoutsForSpecificMuscleGroupsFragment">
+        <argument
+            android:name="workoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_workoutsForSpecificMuscleGroupsFragment_to_sevenDaysTrainingCourseSubWorkoutFragment"
+            app:destination="@id/sevenDaysTrainingCourseSubWorkoutFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_power_training"
+        android:id="@+id/powerTrainingFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.powerTraining.PowerTrainingFragment"
+        android:label="PowerTrainingFragment">
+        <argument
+            android:name="workoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_powerTrainingFragment_to_exerciseInfoFragment"
+            app:destination="@id/exerciseInfoFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_horizontal_bar_start_test"
+        android:id="@+id/horizontalBarStartTestFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.horizontalBar.HorizontalBarStartTestFragment"
+        android:label="HorizontalBarStartTestFragment" >
+        <argument
+            android:name="workoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_horizontalBarStartTestFragment_to_horizontalBarTestDescriptionFragment"
+            app:destination="@id/horizontalBarTestDescriptionFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_horizontal_bar_test_description"
+        android:id="@+id/horizontalBarTestDescriptionFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.horizontalBar.HorizontalBarTestDescriptionFragment"
+        android:label="HorizontalBarTestDescriptionFragment" >
+        <argument
+            android:name="workoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_horizontalBarTestDescriptionFragment_to_horizontalBarTestAproachesFragment"
+            app:destination="@id/horizontalBarTestAproachesFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_horizontal_bar_test_approaches_count"
+        android:id="@+id/horizontalBarTestAproachesFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.horizontalBar.horizontalBarTestAproaches.HorizontalBarTestAproachesFragment"
+        android:label="HorizontalBarTestAproachesFragment" >
+        <argument
+            android:name="workoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_horizontalBarTestAproachesFragment_to_horizontalBarTestResultFragment"
+            app:destination="@id/horizontalBarTestResultFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_horizontal_bar_test_result"
+        android:id="@+id/horizontalBarTestResultFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.horizontalBar.HorizontalBarTestResultFragment"
+        android:label="HorizontalBarTestResultFragment" >
+        <argument
+            android:name="workoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="subWorkoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="subWorkoutType"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_horizontalBarTestResultFragment_to_horizontalBarFragment"
+            app:destination="@id/horizontalBarFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_horizontal_bar"
+        android:id="@+id/horizontalBarFragment"
+        android:name="hedgehog.tech.fitnes.ui.main.workouts.horizontalBar.horizontalBar.HorizontalBarFragment"
+        android:label="HorizontalBarFragment" >
+        <action
+            android:id="@+id/action_horizontalBarFragment_to_exerciseInfoFragment"
+            app:destination="@id/exerciseInfoFragment" >
+
+        </action>
+        <argument
+            android:name="workoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="subWorkoutModelId"
+            app:argType="integer" />
+        <argument
+            android:name="subWorkoutType"
+            app:argType="integer" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+    </fragment>
+
+</navigation>

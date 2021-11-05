@@ -1,0 +1,3971 @@
+[
+  {
+    "exerciseId": 1,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 1,
+    "time": 10000,
+    "title": "Arm stretches"
+  },
+  {
+    "exerciseId": 2,
+    "id": 0,
+    "queue": 2,
+    "repetitionsCount": 2,
+    "subWorkoutId": 1,
+    "title": "Shoulder warm up"
+  },
+  {
+    "exerciseId": 3,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 10,
+    "subWorkoutId": 1,
+    "title": "Head rotation"
+  },
+  {
+    "approachesCount": 5,
+    "exerciseId": 4,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Shoulder rotation"
+  },
+  {
+    "approachesCount": 5,
+    "exerciseId": 5,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Elbows rotation"
+  },
+  {
+    "approachesCount": 5,
+    "exerciseId": 6,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Straight arms rotation"
+  },
+  {
+    "approachesCount": 5,
+    "exerciseId": 7,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Head turns"
+  },
+  {
+    "exerciseId": 8,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 3,
+    "subWorkoutId": 1,
+    "title": "Thoracic twists"
+  },
+  {
+    "exerciseId": 9,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Body lateral displacements"
+  },
+  {
+    "exerciseId": 10,
+    "id": 0,
+    "queue": 10,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Body circular displacements"
+  },
+  {
+    "exerciseId": 11,
+    "id": 0,
+    "queue": 11,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Lateral traction"
+  },
+  {
+    "exerciseId": 12,
+    "id": 0,
+    "queue": 12,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Body turns"
+  },
+  {
+    "approachesCount": 5,
+    "exerciseId": 13,
+    "id": 0,
+    "queue": 13,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Body rotation"
+  },
+  {
+    "exerciseId": 14,
+    "id": 0,
+    "queue": 14,
+    "repetitionsCount": 2,
+    "subWorkoutId": 1,
+    "title": "Body bends"
+  },
+  {
+    "approachesCount": 5,
+    "exerciseId": 15,
+    "id": 0,
+    "queue": 15,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Pelvis rotation"
+  },
+  {
+    "approachesCount": 5,
+    "exerciseId": 16,
+    "id": 0,
+    "queue": 16,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Balancing, draw a circle with a toe"
+  },
+  {
+    "approachesCount": 5,
+    "exerciseId": 17,
+    "id": 0,
+    "queue": 17,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Knees rotation"
+  },
+  {
+    "approachesCount": 5,
+    "exerciseId": 18,
+    "id": 0,
+    "queue": 18,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Forward leg swing"
+  },
+  {
+    "exerciseId": 19,
+    "id": 0,
+    "queue": 19,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Side leg swing"
+  },
+  {
+    "exerciseId": 20,
+    "id": 0,
+    "queue": 20,
+    "repetitionsCount": 2,
+    "subWorkoutId": 1,
+    "title": "Horizontal displacement"
+  },
+  {
+    "exerciseId": 21,
+    "id": 0,
+    "queue": 21,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Side lunges"
+  },
+  {
+    "exerciseId": 22,
+    "id": 0,
+    "queue": 22,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Lower back warm up"
+  },
+  {
+    "exerciseId": 23,
+    "id": 0,
+    "queue": 23,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Mill"
+  },
+  {
+    "exerciseId": 24,
+    "id": 0,
+    "queue": 24,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Half-split, half-squat"
+  },
+  {
+    "exerciseId": 25,
+    "id": 0,
+    "queue": 25,
+    "repetitionsCount": 2,
+    "subWorkoutId": 1,
+    "title": "Thigh stretch"
+  },
+  {
+    "exerciseId": 26,
+    "id": 0,
+    "queue": 26,
+    "repetitionsCount": 5,
+    "subWorkoutId": 1,
+    "title": "Contact with deflection"
+  },
+  {
+    "exerciseId": 27,
+    "id": 0,
+    "queue": 27,
+    "repetitionsCount": 2,
+    "subWorkoutId": 1,
+    "title": "Back bend"
+  },
+  {
+    "exerciseId": 28,
+    "id": 0,
+    "queue": 28,
+    "repetitionsCount": 2,
+    "subWorkoutId": 1,
+    "title": "Shoulder girdle warm up"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 9,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 9,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 31,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 9,
+    "time": 30000,
+    "title": "Wall squats"
+  },
+  {
+    "exerciseId": 32,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 15,
+    "subWorkoutId": 9,
+    "title": "Squats with arms extended"
+  },
+  {
+    "exerciseId": 33,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 15,
+    "subWorkoutId": 9,
+    "title": "Alternate step with hands on the waist"
+  },
+  {
+    "exerciseId": 34,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 15,
+    "subWorkoutId": 9,
+    "title": "Lifting up right leg on all fours"
+  },
+  {
+    "exerciseId": 35,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 15,
+    "subWorkoutId": 9,
+    "title": "Lifting up right left leg on all fours"
+  },
+  {
+    "exerciseId": 36,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 15,
+    "subWorkoutId": 9,
+    "title": "Frog squat"
+  },
+  {
+    "exerciseId": 37,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 15,
+    "subWorkoutId": 9,
+    "title": "Alternate lying leg raises"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 16,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 16,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 38,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 16,
+    "time": 30000,
+    "title": "Squat walks"
+  },
+  {
+    "exerciseId": 39,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 16,
+    "time": 30000,
+    "title": "Squat jumps"
+  },
+  {
+    "exerciseId": 31,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 16,
+    "time": 30000,
+    "title": "Wall squats"
+  },
+  {
+    "exerciseId": 32,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 15,
+    "subWorkoutId": 16,
+    "title": "Squats with arms extended"
+  },
+  {
+    "exerciseId": 40,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 15,
+    "subWorkoutId": 16,
+    "title": "Alternate straight-line substep"
+  },
+  {
+    "exerciseId": 41,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 15,
+    "subWorkoutId": 16,
+    "title": "Squat jumping"
+  },
+  {
+    "exerciseId": 42,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 15,
+    "subWorkoutId": 16,
+    "title": "Standing on all fours"
+  },
+  {
+    "exerciseId": 41,
+    "id": 0,
+    "queue": 10,
+    "repetitionsCount": 15,
+    "subWorkoutId": 16,
+    "title": "Squat jumping"
+  },
+  {
+    "exerciseId": 34,
+    "id": 0,
+    "queue": 11,
+    "repetitionsCount": 15,
+    "subWorkoutId": 16,
+    "title": "Lifting up right leg on all fours"
+  },
+  {
+    "exerciseId": 36,
+    "id": 0,
+    "queue": 12,
+    "repetitionsCount": 15,
+    "subWorkoutId": 16,
+    "title": "Frog squat"
+  },
+  {
+    "exerciseId": 37,
+    "id": 0,
+    "queue": 13,
+    "repetitionsCount": 15,
+    "subWorkoutId": 16,
+    "title": "Alternate lying leg raises"
+  },
+  {
+    "exerciseId": 43,
+    "id": 0,
+    "queue": 14,
+    "repetitionsCount": 15,
+    "subWorkoutId": 16,
+    "title": "Lunges to the side"
+  },
+  {
+    "exerciseId": 37,
+    "id": 0,
+    "queue": 15,
+    "repetitionsCount": 15,
+    "subWorkoutId": 16,
+    "title": "Alternate lying leg raises"
+  },
+  {
+    "exerciseId": 44,
+    "id": 0,
+    "queue": 16,
+    "subWorkoutId": 16,
+    "time": 60000,
+    "title": "Superman"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 23,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 23,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 38,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 23,
+    "time": 60000,
+    "title": "Squat walks"
+  },
+  {
+    "exerciseId": 39,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 23,
+    "time": 30000,
+    "title": "Squat jumps"
+  },
+  {
+    "exerciseId": 32,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 15,
+    "subWorkoutId": 23,
+    "title": "Squats with arms extended"
+  },
+  {
+    "exerciseId": 45,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 15,
+    "subWorkoutId": 23,
+    "title": "Squat lunges forward with a return to the starting position"
+  },
+  {
+    "exerciseId": 46,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 30,
+    "subWorkoutId": 23,
+    "title": "Jumping to the side"
+  },
+  {
+    "exerciseId": 56,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 15,
+    "subWorkoutId": 23,
+    "title": "Lunge"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 20,
+    "subWorkoutId": 23,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 34,
+    "id": 0,
+    "queue": 10,
+    "repetitionsCount": 15,
+    "subWorkoutId": 23,
+    "title": "Lifting up right leg on all fours"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 11,
+    "repetitionsCount": 3,
+    "subWorkoutId": 23,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 58,
+    "id": 0,
+    "queue": 12,
+    "repetitionsCount": 15,
+    "subWorkoutId": 23,
+    "title": "Glute bridge"
+  },
+  {
+    "exerciseId": 36,
+    "id": 0,
+    "queue": 13,
+    "repetitionsCount": 15,
+    "subWorkoutId": 23,
+    "title": "Frog squat"
+  },
+  {
+    "exerciseId": 59,
+    "id": 0,
+    "queue": 14,
+    "repetitionsCount": 30,
+    "subWorkoutId": 23,
+    "title": "Jumping out of the squat"
+  },
+  {
+    "exerciseId": 60,
+    "id": 0,
+    "queue": 15,
+    "repetitionsCount": 10,
+    "subWorkoutId": 23,
+    "title": "Jumping on object"
+  },
+  {
+    "exerciseId": 61,
+    "id": 0,
+    "queue": 16,
+    "repetitionsCount": 15,
+    "subWorkoutId": 23,
+    "title": "Side swing"
+  },
+  {
+    "exerciseId": 62,
+    "id": 0,
+    "queue": 17,
+    "repetitionsCount": 20,
+    "subWorkoutId": 23,
+    "title": "Alternate side step with hands"
+  },
+  {
+    "exerciseId": 44,
+    "id": 0,
+    "queue": 18,
+    "subWorkoutId": 23,
+    "time": 60000,
+    "title": "Superman"
+  },
+  {
+    "exerciseId": 47,
+    "id": 0,
+    "queue": 1,
+    "repetitionsCount": 3,
+    "subWorkoutId": 30,
+    "title": "Breath awakening"
+  },
+  {
+    "exerciseId": 48,
+    "id": 0,
+    "queue": 2,
+    "repetitionsCount": 3,
+    "subWorkoutId": 30,
+    "title": "Circular head rotation"
+  },
+  {
+    "exerciseId": 49,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 10,
+    "subWorkoutId": 30,
+    "title": "Warm up brushes"
+  },
+  {
+    "exerciseId": 50,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 10,
+    "subWorkoutId": 30,
+    "title": "Elbow joints"
+  },
+  {
+    "exerciseId": 51,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 10,
+    "subWorkoutId": 30,
+    "title": "Shoulder joint"
+  },
+  {
+    "exerciseId": 52,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 10,
+    "subWorkoutId": 30,
+    "title": "Warm up the trapezoid"
+  },
+  {
+    "exerciseId": 53,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 10,
+    "subWorkoutId": 30,
+    "title": "Side bends"
+  },
+  {
+    "exerciseId": 54,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 10,
+    "subWorkoutId": 30,
+    "title": "Slopes"
+  },
+  {
+    "approachesCount": 2,
+    "exerciseId": 55,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 5,
+    "subWorkoutId": 30,
+    "title": "Rolls"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 11,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 11,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 64,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 4,
+    "subWorkoutId": 11,
+    "title": "Push-ups with support"
+  },
+  {
+    "exerciseId": 64,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 4,
+    "subWorkoutId": 11,
+    "title": "Push-ups on all fours"
+  },
+  {
+    "exerciseId": 65,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 3,
+    "subWorkoutId": 11,
+    "title": "Push-ups from the floor"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 3,
+    "subWorkoutId": 11,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 66,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 2,
+    "subWorkoutId": 11,
+    "title": "Push-ups with a wide grip"
+  },
+  {
+    "exerciseId": 67,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 2,
+    "subWorkoutId": 11,
+    "title": "Push-ups with a narrow grip"
+  },
+  {
+    "exerciseId": 68,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 11,
+    "time": 60000,
+    "title": "Direct strikes at a speed"
+  },
+  {
+    "exerciseId": 69,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 11,
+    "time": 30000,
+    "title": "Chest stretch"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 11,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 18,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 18,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 71,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 10,
+    "subWorkoutId": 18,
+    "title": "Floor push-ups"
+  },
+  {
+    "exerciseId": 72,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 10,
+    "subWorkoutId": 18,
+    "title": "Chair push-ups"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 10,
+    "subWorkoutId": 18,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 8,
+    "subWorkoutId": 18,
+    "title": "Close-grip push-ups"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 18,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 75,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 8,
+    "subWorkoutId": 18,
+    "title": "Diagonally push-ups"
+  },
+  {
+    "exerciseId": 76,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 15,
+    "subWorkoutId": 18,
+    "title": "Climber"
+  },
+  {
+    "exerciseId": 77,
+    "id": 0,
+    "queue": 10,
+    "repetitionsCount": 7,
+    "subWorkoutId": 18,
+    "title": "Push up to alternating arm raise"
+  },
+  {
+    "exerciseId": 68,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 18,
+    "time": 60000,
+    "title": "Direct strikes at a speed"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 25,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 25,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 3,
+    "subWorkoutId": 25,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 79,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 5,
+    "subWorkoutId": 25,
+    "title": "Jumping push-ups"
+  },
+  {
+    "exerciseId": 65,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 20,
+    "subWorkoutId": 25,
+    "title": "Push-ups from the floor"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 25,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 80,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 15,
+    "subWorkoutId": 25,
+    "title": "Push-ups from the floor with a twist"
+  },
+  {
+    "exerciseId": 75,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 3,
+    "subWorkoutId": 25,
+    "title": "Diagonally push-ups"
+  },
+  {
+    "exerciseId": 76,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 15,
+    "subWorkoutId": 25,
+    "title": "Climber"
+  },
+  {
+    "exerciseId": 80,
+    "id": 0,
+    "queue": 10,
+    "repetitionsCount": 15,
+    "subWorkoutId": 25,
+    "title": "Push-ups from the floor with a twist"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 11,
+    "repetitionsCount": 3,
+    "subWorkoutId": 25,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 81,
+    "id": 0,
+    "queue": 12,
+    "subWorkoutId": 25,
+    "time": 60000,
+    "title": "Direct hits for speed"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 12,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 82,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "High lift of the thigh"
+  },
+  {
+    "exerciseId": 83,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Straight lunges with subsidence"
+  },
+  {
+    "exerciseId": 21,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Side lunges"
+  },
+  {
+    "exerciseId": 84,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Side swings with the right leg"
+  },
+  {
+    "exerciseId": 85,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Lateral swings with the left leg"
+  },
+  {
+    "exerciseId": 86,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Bending forward"
+  },
+  {
+    "exerciseId": 87,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Sitting forward bends"
+  },
+  {
+    "exerciseId": 88,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Stretching the left tendon"
+  },
+  {
+    "exerciseId": 89,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Stretching the right tendon"
+  },
+  {
+    "exerciseId": 90,
+    "id": 0,
+    "queue": 12,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Seated butterfly pose"
+  },
+  {
+    "exerciseId": 91,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Butterfly pose with an inclination forward"
+  },
+  {
+    "exerciseId": 92,
+    "id": 0,
+    "queue": 14,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Split with legs wide apart"
+  },
+  {
+    "exerciseId": 93,
+    "id": 0,
+    "queue": 15,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Forward tilted twine"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 19,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 19,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 82,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 19,
+    "time": 60000,
+    "title": "High lift of the thigh"
+  },
+  {
+    "exerciseId": 83,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 19,
+    "time": 30000,
+    "title": "Straight lunges with subsidence"
+  },
+  {
+    "exerciseId": 21,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 19,
+    "time": 30000,
+    "title": "Side lunges"
+  },
+  {
+    "exerciseId": 84,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 19,
+    "time": 60000,
+    "title": "Side swings with the right leg"
+  },
+  {
+    "exerciseId": 85,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 19,
+    "time": 30000,
+    "title": "Lateral swings with the left leg"
+  },
+  {
+    "exerciseId": 87,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 19,
+    "time": 60000,
+    "title": "Sitting forward bends"
+  },
+  {
+    "exerciseId": 88,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 19,
+    "time": 60000,
+    "title": "Stretching the left tendon"
+  },
+  {
+    "exerciseId": 89,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 19,
+    "time": 30000,
+    "title": "Stretching the right tendon"
+  },
+  {
+    "exerciseId": 90,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 19,
+    "time": 30000,
+    "title": "Seated butterfly pose"
+  },
+  {
+    "exerciseId": 91,
+    "id": 0,
+    "queue": 12,
+    "subWorkoutId": 19,
+    "time": 30000,
+    "title": "Butterfly pose with an inclination forward"
+  },
+  {
+    "exerciseId": 92,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 19,
+    "time": 30000,
+    "title": "Split with legs wide apart"
+  },
+  {
+    "exerciseId": 93,
+    "id": 0,
+    "queue": 14,
+    "subWorkoutId": 19,
+    "time": 30000,
+    "title": "Forward tilted twine"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 26,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 26,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 82,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 26,
+    "time": 30000,
+    "title": "High lift of the thigh"
+  },
+  {
+    "exerciseId": 83,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 26,
+    "time": 30000,
+    "title": "Straight lunges with subsidence"
+  },
+  {
+    "exerciseId": 21,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 26,
+    "time": 60000,
+    "title": "Side lunges"
+  },
+  {
+    "exerciseId": 84,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 26,
+    "time": 30000,
+    "title": "Side swings with the right leg"
+  },
+  {
+    "exerciseId": 85,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 26,
+    "time": 30000,
+    "title": "Lateral swings with the left leg"
+  },
+  {
+    "exerciseId": 86,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 26,
+    "time": 30000,
+    "title": "Bending forward"
+  },
+  {
+    "exerciseId": 87,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 26,
+    "time": 30000,
+    "title": "Sitting forward bends"
+  },
+  {
+    "exerciseId": 88,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 26,
+    "time": 30000,
+    "title": "Stretching the left tendon"
+  },
+  {
+    "exerciseId": 89,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 26,
+    "time": 30000,
+    "title": "Stretching the right tendon"
+  },
+  {
+    "exerciseId": 90,
+    "id": 0,
+    "queue": 12,
+    "subWorkoutId": 26,
+    "time": 30000,
+    "title": "Seated butterfly pose"
+  },
+  {
+    "exerciseId": 91,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Butterfly pose with an inclination forward"
+  },
+  {
+    "exerciseId": 92,
+    "id": 0,
+    "queue": 14,
+    "subWorkoutId": 26,
+    "time": 30000,
+    "title": "Split with legs wide apart"
+  },
+  {
+    "exerciseId": 93,
+    "id": 0,
+    "queue": 15,
+    "subWorkoutId": 26,
+    "time": 30000,
+    "title": "Forward tilted twine"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 14,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 14,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 107,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 5,
+    "subWorkoutId": 14,
+    "title": "Corner"
+  },
+  {
+    "exerciseId": 76,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 10,
+    "subWorkoutId": 14,
+    "title": "Climber"
+  },
+  {
+    "exerciseId": 107,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 5,
+    "subWorkoutId": 14,
+    "title": "Corner"
+  },
+  {
+    "exerciseId": 108,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 10,
+    "subWorkoutId": 14,
+    "title": "Side tilts"
+  },
+  {
+    "exerciseId": 109,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 10,
+    "subWorkoutId": 14,
+    "title": "Bridge"
+  },
+  {
+    "exerciseId": 110,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 14,
+    "time": 30000,
+    "title": "Bicycle"
+  },
+  {
+    "exerciseId": 107,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 10,
+    "subWorkoutId": 14,
+    "title": "Corner"
+  },
+  {
+    "exerciseId": 44,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 14,
+    "time": 30000,
+    "title": "Superman"
+  },
+  {
+    "exerciseId": 110,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 14,
+    "time": 30000,
+    "title": "Bicycle"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 12,
+    "subWorkoutId": 14,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 14,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 14,
+    "subWorkoutId": 14,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 21,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 21,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 112,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 25,
+    "subWorkoutId": 21,
+    "title": "Hyperextension"
+  },
+  {
+    "exerciseId": 109,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 15,
+    "subWorkoutId": 21,
+    "title": "Bridge"
+  },
+  {
+    "exerciseId": 113,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 2,
+    "subWorkoutId": 21,
+    "title": "Raising the legs"
+  },
+  {
+    "exerciseId": 76,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 15,
+    "subWorkoutId": 21,
+    "title": "Climber"
+  },
+  {
+    "exerciseId": 107,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 15,
+    "subWorkoutId": 21,
+    "title": "Corner"
+  },
+  {
+    "approachesCount": 15,
+    "exerciseId": 114,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 15,
+    "subWorkoutId": 21,
+    "title": "Lateral torso movements"
+  },
+  {
+    "exerciseId": 109,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 20,
+    "subWorkoutId": 21,
+    "title": "Bridge"
+  },
+  {
+    "exerciseId": 110,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 21,
+    "time": 30000,
+    "title": "Bicycle"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 21,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 115,
+    "id": 0,
+    "queue": 12,
+    "repetitionsCount": 30,
+    "subWorkoutId": 21,
+    "title": "Torso lift"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 21,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 44,
+    "id": 0,
+    "queue": 14,
+    "subWorkoutId": 21,
+    "time": 60000,
+    "title": "Superman"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 15,
+    "subWorkoutId": 21,
+    "time": 60000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 16,
+    "subWorkoutId": 21,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 17,
+    "subWorkoutId": 21,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 28,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 28,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 116,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 30,
+    "subWorkoutId": 28,
+    "title": "Raising the torso with hands"
+  },
+  {
+    "exerciseId": 117,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 20,
+    "subWorkoutId": 28,
+    "title": "Lying on your back"
+  },
+  {
+    "exerciseId": 113,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 30,
+    "subWorkoutId": 28,
+    "title": "Raising the legs"
+  },
+  {
+    "exerciseId": 76,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 15,
+    "subWorkoutId": 28,
+    "title": "Climber"
+  },
+  {
+    "exerciseId": 107,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 25,
+    "subWorkoutId": 28,
+    "title": "Corner"
+  },
+  {
+    "approachesCount": 15,
+    "exerciseId": 114,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 15,
+    "subWorkoutId": 28,
+    "title": "Lateral torso movements"
+  },
+  {
+    "exerciseId": 109,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 20,
+    "subWorkoutId": 28,
+    "title": "Bridge"
+  },
+  {
+    "exerciseId": 110,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 28,
+    "time": 30000,
+    "title": "Bicycle"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 28,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 107,
+    "id": 0,
+    "queue": 12,
+    "repetitionsCount": 10,
+    "subWorkoutId": 28,
+    "title": "Corner"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 28,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 44,
+    "id": 0,
+    "queue": 14,
+    "subWorkoutId": 28,
+    "time": 60000,
+    "title": "Superman"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 15,
+    "subWorkoutId": 28,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 16,
+    "subWorkoutId": 28,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 17,
+    "subWorkoutId": 28,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 15,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 15,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 118,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 15,
+    "time": 30000,
+    "title": "High plank"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 15,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 119,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 15,
+    "time": 60000,
+    "title": "Plank with leg raises"
+  },
+  {
+    "exerciseId": 120,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 15,
+    "time": 60000,
+    "title": "Raising arms plank"
+  },
+  {
+    "exerciseId": 118,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 15,
+    "time": 30000,
+    "title": "High plank"
+  },
+  {
+    "exerciseId": 121,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 15,
+    "time": 60000,
+    "title": "Plank standing on the right side"
+  },
+  {
+    "exerciseId": 122,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 15,
+    "time": 60000,
+    "title": "Plank standing on the left side"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 15,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 15,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 22,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 22,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 118,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 22,
+    "time": 30000,
+    "title": "High plank"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 22,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 22,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 22,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 29,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 15,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 118,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 29,
+    "time": 30000,
+    "title": "High plank"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 29,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 29,
+    "time": 60000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 118,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 29,
+    "time": 30000,
+    "title": "High plank"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 29,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 122,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 15,
+    "time": 60000,
+    "title": "Plank standing on the left side"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 29,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 29,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 31,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 31,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 64,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 4,
+    "subWorkoutId": 31,
+    "title": "Push-ups with support"
+  },
+  {
+    "exerciseId": 64,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 4,
+    "subWorkoutId": 31,
+    "title": "Push-ups on all fours"
+  },
+  {
+    "exerciseId": 65,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 3,
+    "subWorkoutId": 31,
+    "title": "Push-ups from the floor"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 3,
+    "subWorkoutId": 31,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 66,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 2,
+    "subWorkoutId": 31,
+    "title": "Push-ups with a wide grip"
+  },
+  {
+    "exerciseId": 67,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 2,
+    "subWorkoutId": 31,
+    "title": "Push-ups with a narrow grip"
+  },
+  {
+    "exerciseId": 68,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 31,
+    "time": 60000,
+    "title": "Direct strikes at a speed"
+  },
+  {
+    "exerciseId": 69,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 31,
+    "time": 30000,
+    "title": "Chest stretch"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 31,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 37,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 37,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 71,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 10,
+    "subWorkoutId": 37,
+    "title": "Floor push-ups"
+  },
+  {
+    "exerciseId": 72,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 10,
+    "subWorkoutId": 37,
+    "title": "Chair push-ups"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 10,
+    "subWorkoutId": 37,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 8,
+    "subWorkoutId": 37,
+    "title": "Close-grip push-ups"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 37,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 75,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 8,
+    "subWorkoutId": 37,
+    "title": "Diagonally push-ups"
+  },
+  {
+    "exerciseId": 76,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 15,
+    "subWorkoutId": 37,
+    "title": "Climber"
+  },
+  {
+    "exerciseId": 77,
+    "id": 0,
+    "queue": 10,
+    "repetitionsCount": 7,
+    "subWorkoutId": 37,
+    "title": "Push up to alternating arm raise"
+  },
+  {
+    "exerciseId": 68,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 37,
+    "time": 60000,
+    "title": "Direct strikes at a speed"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 43,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 43,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 3,
+    "subWorkoutId": 43,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 79,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 5,
+    "subWorkoutId": 43,
+    "title": "Jumping push-ups"
+  },
+  {
+    "exerciseId": 65,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 20,
+    "subWorkoutId": 43,
+    "title": "Push-ups from the floor"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 43,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 80,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 15,
+    "subWorkoutId": 43,
+    "title": "Push-ups from the floor with a twist"
+  },
+  {
+    "exerciseId": 75,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 3,
+    "subWorkoutId": 43,
+    "title": "Diagonally push-ups"
+  },
+  {
+    "exerciseId": 76,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 15,
+    "subWorkoutId": 43,
+    "title": "Climber"
+  },
+  {
+    "exerciseId": 80,
+    "id": 0,
+    "queue": 10,
+    "repetitionsCount": 15,
+    "subWorkoutId": 43,
+    "title": "Push-ups from the floor with a twist"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 11,
+    "repetitionsCount": 3,
+    "subWorkoutId": 43,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 81,
+    "id": 0,
+    "queue": 12,
+    "subWorkoutId": 43,
+    "time": 60000,
+    "title": "Direct hits for speed"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 32,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 32,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 107,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 5,
+    "subWorkoutId": 32,
+    "title": "Corner"
+  },
+  {
+    "exerciseId": 76,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 10,
+    "subWorkoutId": 32,
+    "title": "Climber"
+  },
+  {
+    "exerciseId": 107,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 5,
+    "subWorkoutId": 32,
+    "title": "Corner"
+  },
+  {
+    "exerciseId": 108,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 10,
+    "subWorkoutId": 32,
+    "title": "Side tilts"
+  },
+  {
+    "exerciseId": 109,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 10,
+    "subWorkoutId": 32,
+    "title": "Bridge"
+  },
+  {
+    "exerciseId": 110,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 32,
+    "time": 30000,
+    "title": "Bicycle"
+  },
+  {
+    "exerciseId": 107,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 10,
+    "subWorkoutId": 32,
+    "title": "Corner"
+  },
+  {
+    "exerciseId": 44,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 32,
+    "time": 30000,
+    "title": "Superman"
+  },
+  {
+    "exerciseId": 110,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 32,
+    "time": 30000,
+    "title": "Bicycle"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 12,
+    "subWorkoutId": 32,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 32,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 14,
+    "subWorkoutId": 32,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 38,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 38,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 112,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 25,
+    "subWorkoutId": 38,
+    "title": "Hyperextension"
+  },
+  {
+    "exerciseId": 109,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 15,
+    "subWorkoutId": 38,
+    "title": "Bridge"
+  },
+  {
+    "exerciseId": 113,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 2,
+    "subWorkoutId": 38,
+    "title": "Raising the legs"
+  },
+  {
+    "exerciseId": 76,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 15,
+    "subWorkoutId": 38,
+    "title": "Climber"
+  },
+  {
+    "exerciseId": 107,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 15,
+    "subWorkoutId": 38,
+    "title": "Corner"
+  },
+  {
+    "approachesCount": 15,
+    "exerciseId": 114,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 15,
+    "subWorkoutId": 38,
+    "title": "Lateral torso movements"
+  },
+  {
+    "exerciseId": 109,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 20,
+    "subWorkoutId": 38,
+    "title": "Bridge"
+  },
+  {
+    "exerciseId": 110,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 38,
+    "time": 30000,
+    "title": "Bicycle"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 38,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 115,
+    "id": 0,
+    "queue": 12,
+    "repetitionsCount": 30,
+    "subWorkoutId": 38,
+    "title": "Torso lift"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 38,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 44,
+    "id": 0,
+    "queue": 14,
+    "subWorkoutId": 38,
+    "time": 60000,
+    "title": "Superman"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 15,
+    "subWorkoutId": 38,
+    "time": 60000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 16,
+    "subWorkoutId": 38,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 17,
+    "subWorkoutId": 38,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 44,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 44,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 116,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 30,
+    "subWorkoutId": 44,
+    "title": "Raising the torso with hands"
+  },
+  {
+    "exerciseId": 117,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 20,
+    "subWorkoutId": 44,
+    "title": "Lying on your back"
+  },
+  {
+    "exerciseId": 113,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 30,
+    "subWorkoutId": 44,
+    "title": "Raising the legs"
+  },
+  {
+    "exerciseId": 76,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 15,
+    "subWorkoutId": 44,
+    "title": "Climber"
+  },
+  {
+    "exerciseId": 107,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 25,
+    "subWorkoutId": 44,
+    "title": "Corner"
+  },
+  {
+    "approachesCount": 15,
+    "exerciseId": 114,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 15,
+    "subWorkoutId": 44,
+    "title": "Lateral torso movements"
+  },
+  {
+    "exerciseId": 109,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 20,
+    "subWorkoutId": 44,
+    "title": "Bridge"
+  },
+  {
+    "exerciseId": 110,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 44,
+    "time": 30000,
+    "title": "Bicycle"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 44,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 107,
+    "id": 0,
+    "queue": 12,
+    "repetitionsCount": 10,
+    "subWorkoutId": 44,
+    "title": "Corner"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 44,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 44,
+    "id": 0,
+    "queue": 14,
+    "subWorkoutId": 44,
+    "time": 60000,
+    "title": "Superman"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 15,
+    "subWorkoutId": 44,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 16,
+    "subWorkoutId": 44,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 17,
+    "subWorkoutId": 44,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 33,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 82,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "High lift of the thigh"
+  },
+  {
+    "exerciseId": 83,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Straight lunges with subsidence"
+  },
+  {
+    "exerciseId": 21,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Side lunges"
+  },
+  {
+    "exerciseId": 84,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Side swings with the right leg"
+  },
+  {
+    "exerciseId": 85,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Lateral swings with the left leg"
+  },
+  {
+    "exerciseId": 86,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Bending forward"
+  },
+  {
+    "exerciseId": 87,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Sitting forward bends"
+  },
+  {
+    "exerciseId": 88,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Stretching the left tendon"
+  },
+  {
+    "exerciseId": 89,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Stretching the right tendon"
+  },
+  {
+    "exerciseId": 90,
+    "id": 0,
+    "queue": 12,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Seated butterfly pose"
+  },
+  {
+    "exerciseId": 91,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Butterfly pose with an inclination forward"
+  },
+  {
+    "exerciseId": 92,
+    "id": 0,
+    "queue": 14,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Split with legs wide apart"
+  },
+  {
+    "exerciseId": 93,
+    "id": 0,
+    "queue": 15,
+    "subWorkoutId": 33,
+    "time": 30000,
+    "title": "Forward tilted twine"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 39,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 39,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 82,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 39,
+    "time": 60000,
+    "title": "High lift of the thigh"
+  },
+  {
+    "exerciseId": 83,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 39,
+    "time": 30000,
+    "title": "Straight lunges with subsidence"
+  },
+  {
+    "exerciseId": 21,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 39,
+    "time": 30000,
+    "title": "Side lunges"
+  },
+  {
+    "exerciseId": 84,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 39,
+    "time": 60000,
+    "title": "Side swings with the right leg"
+  },
+  {
+    "exerciseId": 85,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 39,
+    "time": 30000,
+    "title": "Lateral swings with the left leg"
+  },
+  {
+    "exerciseId": 87,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 39,
+    "time": 60000,
+    "title": "Sitting forward bends"
+  },
+  {
+    "exerciseId": 88,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 39,
+    "time": 60000,
+    "title": "Stretching the left tendon"
+  },
+  {
+    "exerciseId": 89,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 39,
+    "time": 30000,
+    "title": "Stretching the right tendon"
+  },
+  {
+    "exerciseId": 90,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 39,
+    "time": 30000,
+    "title": "Seated butterfly pose"
+  },
+  {
+    "exerciseId": 91,
+    "id": 0,
+    "queue": 12,
+    "subWorkoutId": 39,
+    "time": 30000,
+    "title": "Butterfly pose with an inclination forward"
+  },
+  {
+    "exerciseId": 92,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 39,
+    "time": 30000,
+    "title": "Split with legs wide apart"
+  },
+  {
+    "exerciseId": 93,
+    "id": 0,
+    "queue": 14,
+    "subWorkoutId": 39,
+    "time": 30000,
+    "title": "Forward tilted twine"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 45,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 45,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 82,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 45,
+    "time": 30000,
+    "title": "High lift of the thigh"
+  },
+  {
+    "exerciseId": 83,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 45,
+    "time": 30000,
+    "title": "Straight lunges with subsidence"
+  },
+  {
+    "exerciseId": 21,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 45,
+    "time": 60000,
+    "title": "Side lunges"
+  },
+  {
+    "exerciseId": 84,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 45,
+    "time": 30000,
+    "title": "Side swings with the right leg"
+  },
+  {
+    "exerciseId": 85,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 45,
+    "time": 30000,
+    "title": "Lateral swings with the left leg"
+  },
+  {
+    "exerciseId": 86,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 45,
+    "time": 30000,
+    "title": "Bending forward"
+  },
+  {
+    "exerciseId": 87,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 45,
+    "time": 30000,
+    "title": "Sitting forward bends"
+  },
+  {
+    "exerciseId": 88,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 45,
+    "time": 30000,
+    "title": "Stretching the left tendon"
+  },
+  {
+    "exerciseId": 89,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 45,
+    "time": 30000,
+    "title": "Stretching the right tendon"
+  },
+  {
+    "exerciseId": 90,
+    "id": 0,
+    "queue": 12,
+    "subWorkoutId": 45,
+    "time": 30000,
+    "title": "Seated butterfly pose"
+  },
+  {
+    "exerciseId": 91,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 12,
+    "time": 30000,
+    "title": "Butterfly pose with an inclination forward"
+  },
+  {
+    "exerciseId": 92,
+    "id": 0,
+    "queue": 14,
+    "subWorkoutId": 45,
+    "time": 30000,
+    "title": "Split with legs wide apart"
+  },
+  {
+    "exerciseId": 93,
+    "id": 0,
+    "queue": 15,
+    "subWorkoutId": 45,
+    "time": 30000,
+    "title": "Forward tilted twine"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 34,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 34,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 31,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 34,
+    "time": 30000,
+    "title": "Wall squats"
+  },
+  {
+    "exerciseId": 32,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 15,
+    "subWorkoutId": 34,
+    "title": "Squats with arms extended"
+  },
+  {
+    "exerciseId": 33,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 15,
+    "subWorkoutId": 34,
+    "title": "Alternate step with hands on the waist"
+  },
+  {
+    "exerciseId": 34,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 15,
+    "subWorkoutId": 34,
+    "title": "Lifting up right leg on all fours"
+  },
+  {
+    "exerciseId": 35,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 15,
+    "subWorkoutId": 34,
+    "title": "Lifting up right left leg on all fours"
+  },
+  {
+    "exerciseId": 36,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 15,
+    "subWorkoutId": 34,
+    "title": "Frog squat"
+  },
+  {
+    "exerciseId": 37,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 15,
+    "subWorkoutId": 34,
+    "title": "Alternate lying leg raises"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 40,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 40,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 38,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 40,
+    "time": 30000,
+    "title": "Squat walks"
+  },
+  {
+    "exerciseId": 39,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 40,
+    "time": 30000,
+    "title": "Squat jumps"
+  },
+  {
+    "exerciseId": 31,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 40,
+    "time": 30000,
+    "title": "Wall squats"
+  },
+  {
+    "exerciseId": 32,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 15,
+    "subWorkoutId": 40,
+    "title": "Squats with arms extended"
+  },
+  {
+    "exerciseId": 40,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 15,
+    "subWorkoutId": 40,
+    "title": "Alternate straight-line substep"
+  },
+  {
+    "exerciseId": 41,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 15,
+    "subWorkoutId": 40,
+    "title": "Squat jumping"
+  },
+  {
+    "exerciseId": 42,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 15,
+    "subWorkoutId": 40,
+    "title": "Standing on all fours"
+  },
+  {
+    "exerciseId": 41,
+    "id": 0,
+    "queue": 10,
+    "repetitionsCount": 15,
+    "subWorkoutId": 40,
+    "title": "Squat jumping"
+  },
+  {
+    "exerciseId": 34,
+    "id": 0,
+    "queue": 11,
+    "repetitionsCount": 15,
+    "subWorkoutId": 40,
+    "title": "Lifting up right leg on all fours"
+  },
+  {
+    "exerciseId": 36,
+    "id": 0,
+    "queue": 12,
+    "repetitionsCount": 15,
+    "subWorkoutId": 40,
+    "title": "Frog squat"
+  },
+  {
+    "exerciseId": 37,
+    "id": 0,
+    "queue": 13,
+    "repetitionsCount": 15,
+    "subWorkoutId": 40,
+    "title": "Alternate lying leg raises"
+  },
+  {
+    "exerciseId": 43,
+    "id": 0,
+    "queue": 14,
+    "repetitionsCount": 15,
+    "subWorkoutId": 40,
+    "title": "Lunges to the side"
+  },
+  {
+    "exerciseId": 37,
+    "id": 0,
+    "queue": 15,
+    "repetitionsCount": 15,
+    "subWorkoutId": 40,
+    "title": "Alternate lying leg raises"
+  },
+  {
+    "exerciseId": 44,
+    "id": 0,
+    "queue": 16,
+    "subWorkoutId": 40,
+    "time": 60000,
+    "title": "Superman"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 46,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 46,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 38,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 46,
+    "time": 60000,
+    "title": "Squat walks"
+  },
+  {
+    "exerciseId": 39,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 46,
+    "time": 30000,
+    "title": "Squat jumps"
+  },
+  {
+    "exerciseId": 32,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 15,
+    "subWorkoutId": 46,
+    "title": "Squats with arms extended"
+  },
+  {
+    "exerciseId": 45,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 15,
+    "subWorkoutId": 46,
+    "title": "Squat lunges forward with a return to the starting position"
+  },
+  {
+    "exerciseId": 46,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 30,
+    "subWorkoutId": 46,
+    "title": "Jumping to the side"
+  },
+  {
+    "exerciseId": 56,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 15,
+    "subWorkoutId": 46,
+    "title": "Lunge"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 20,
+    "subWorkoutId": 46,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 34,
+    "id": 0,
+    "queue": 10,
+    "repetitionsCount": 15,
+    "subWorkoutId": 46,
+    "title": "Lifting up right leg on all fours"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 11,
+    "repetitionsCount": 3,
+    "subWorkoutId": 46,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 58,
+    "id": 0,
+    "queue": 12,
+    "repetitionsCount": 15,
+    "subWorkoutId": 46,
+    "title": "Glute bridge"
+  },
+  {
+    "exerciseId": 36,
+    "id": 0,
+    "queue": 13,
+    "repetitionsCount": 15,
+    "subWorkoutId": 46,
+    "title": "Frog squat"
+  },
+  {
+    "exerciseId": 59,
+    "id": 0,
+    "queue": 14,
+    "repetitionsCount": 30,
+    "subWorkoutId": 46,
+    "title": "Jumping out of the squat"
+  },
+  {
+    "exerciseId": 60,
+    "id": 0,
+    "queue": 15,
+    "repetitionsCount": 10,
+    "subWorkoutId": 46,
+    "title": "Jumping on object"
+  },
+  {
+    "exerciseId": 61,
+    "id": 0,
+    "queue": 16,
+    "repetitionsCount": 15,
+    "subWorkoutId": 46,
+    "title": "Side swing"
+  },
+  {
+    "exerciseId": 62,
+    "id": 0,
+    "queue": 17,
+    "repetitionsCount": 20,
+    "subWorkoutId": 46,
+    "title": "Alternate side step with hands"
+  },
+  {
+    "exerciseId": 44,
+    "id": 0,
+    "queue": 18,
+    "subWorkoutId": 46,
+    "time": 60000,
+    "title": "Superman"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 35,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 35,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 118,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 35,
+    "time": 30000,
+    "title": "High plank"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 35,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 119,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 35,
+    "time": 60000,
+    "title": "Plank with leg raises"
+  },
+  {
+    "exerciseId": 120,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 35,
+    "time": 60000,
+    "title": "Raising arms plank"
+  },
+  {
+    "exerciseId": 118,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 35,
+    "time": 30000,
+    "title": "High plank"
+  },
+  {
+    "exerciseId": 121,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 35,
+    "time": 60000,
+    "title": "Plank standing on the right side"
+  },
+  {
+    "exerciseId": 122,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 35,
+    "time": 60000,
+    "title": "Plank standing on the left side"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 35,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 35,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 41,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 41,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 118,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 41,
+    "time": 30000,
+    "title": "High plank"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 41,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 41,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 41,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 47,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 47,
+    "time": 1800000,
+    "title": "Warm up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 15,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 118,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 47,
+    "time": 30000,
+    "title": "High plank"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 47,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 47,
+    "time": 60000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 118,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 47,
+    "time": 30000,
+    "title": "High plank"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 47,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 122,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 15,
+    "time": 60000,
+    "title": "Plank standing on the left side"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 47,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 47,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 36,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 36,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 123,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 10,
+    "subWorkoutId": 36,
+    "title": "Knee push-ups"
+  },
+  {
+    "exerciseId": 65,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 5,
+    "subWorkoutId": 36,
+    "title": "Push-ups from the floor"
+  },
+  {
+    "exerciseId": 112,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 8,
+    "subWorkoutId": 36,
+    "title": "Hyperextension"
+  },
+  {
+    "exerciseId": 124,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 10,
+    "subWorkoutId": 36,
+    "title": "Superman and swimmer"
+  },
+  {
+    "exerciseId": 125,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 8,
+    "subWorkoutId": 36,
+    "title": "Caterpillar"
+  },
+  {
+    "exerciseId": 126,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 5,
+    "subWorkoutId": 36,
+    "title": "Reverse push-ups"
+  },
+  {
+    "exerciseId": 112,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 8,
+    "subWorkoutId": 36,
+    "title": "Hyperextension"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 36,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 36,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 42,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 42,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 65,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 10,
+    "subWorkoutId": 42,
+    "title": "Push-ups from the floor"
+  },
+  {
+    "exerciseId": 112,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 20,
+    "subWorkoutId": 42,
+    "title": "Hyperextension"
+  },
+  {
+    "exerciseId": 125,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 15,
+    "subWorkoutId": 42,
+    "title": "Caterpillar"
+  },
+  {
+    "exerciseId": 126,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 10,
+    "subWorkoutId": 42,
+    "title": "Reverse push-ups"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 7,
+    "subWorkoutId": 42,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 127,
+    "id": 0,
+    "queue": 8,
+    "repetitionsCount": 8,
+    "subWorkoutId": 42,
+    "title": "Alternate hand push-ups"
+  },
+  {
+    "exerciseId": 44,
+    "id": 0,
+    "queue": 9,
+    "subWorkoutId": 42,
+    "time": 60000,
+    "title": "Superman"
+  },
+  {
+    "exerciseId": 81,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 42,
+    "time": 60000,
+    "title": "Direct hits for speed"
+  },
+  {
+    "exerciseId": 112,
+    "id": 0,
+    "queue": 11,
+    "repetitionsCount": 20,
+    "subWorkoutId": 42,
+    "title": "Hyperextension"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 12,
+    "subWorkoutId": 42,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 42,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 29,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 48,
+    "time": 1800000,
+    "title": "Warm Up"
+  },
+  {
+    "exerciseId": 30,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 48,
+    "time": 30000,
+    "title": "Jump rope"
+  },
+  {
+    "exerciseId": 65,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 15,
+    "subWorkoutId": 48,
+    "title": "Push-ups from the floor"
+  },
+  {
+    "exerciseId": 112,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 30,
+    "subWorkoutId": 48,
+    "title": "Hyperextension"
+  },
+  {
+    "exerciseId": 125,
+    "id": 0,
+    "queue": 5,
+    "repetitionsCount": 25,
+    "subWorkoutId": 48,
+    "title": "Caterpillar"
+  },
+  {
+    "exerciseId": 126,
+    "id": 0,
+    "queue": 6,
+    "repetitionsCount": 20,
+    "subWorkoutId": 48,
+    "title": "Reverse push-ups"
+  },
+  {
+    "exerciseId": 58,
+    "id": 0,
+    "queue": 7,
+    "repetitionsCount": 15,
+    "subWorkoutId": 48,
+    "title": "Glute bride"
+  },
+  {
+    "exerciseId": 74,
+    "id": 0,
+    "queue": 8,
+    "subWorkoutId": 48,
+    "time": 30000,
+    "title": "Plank"
+  },
+  {
+    "exerciseId": 127,
+    "id": 0,
+    "queue": 9,
+    "repetitionsCount": 25,
+    "subWorkoutId": 48,
+    "title": "Alternate hand push-ups"
+  },
+  {
+    "exerciseId": 44,
+    "id": 0,
+    "queue": 10,
+    "subWorkoutId": 48,
+    "time": 60000,
+    "title": "Superman"
+  },
+  {
+    "exerciseId": 81,
+    "id": 0,
+    "queue": 11,
+    "subWorkoutId": 48,
+    "time": 60000,
+    "title": "Direct hits for speed"
+  },
+  {
+    "exerciseId": 70,
+    "id": 0,
+    "queue": 12,
+    "subWorkoutId": 48,
+    "time": 30000,
+    "title": "Cobra stretch"
+  },
+  {
+    "exerciseId": 111,
+    "id": 0,
+    "queue": 13,
+    "subWorkoutId": 48,
+    "time": 30000,
+    "title": "Child\u0027s pose"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 49,
+    "time": 120000,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 94,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 49,
+    "time": 120000,
+    "title": "Balls"
+  },
+  {
+    "exerciseId": 95,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 49,
+    "time": 120000,
+    "title": "Output weighting"
+  },
+  {
+    "exerciseId": 96,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 49,
+    "time": 120000,
+    "title": "In a jump, throwing out arms with a load"
+  },
+  {
+    "exerciseId": 97,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 49,
+    "time": 120000,
+    "title": "Push-ups with alternate ball rolling"
+  },
+  {
+    "exerciseId": 87,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 49,
+    "time": 120000,
+    "title": "Sitting forward bends"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 50,
+    "time": 120000,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 94,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 50,
+    "time": 120000,
+    "title": "Balls"
+  },
+  {
+    "exerciseId": 95,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 50,
+    "time": 120000,
+    "title": "Output weighing"
+  },
+  {
+    "exerciseId": 96,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 50,
+    "time": 120000,
+    "title": "In a jump, throwing out arms with a load"
+  },
+  {
+    "exerciseId": 97,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 50,
+    "time": 120000,
+    "title": "Push-ups with alternate ball rolling"
+  },
+  {
+    "exerciseId": 87,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 50,
+    "time": 120000,
+    "title": "Sitting forward bends"
+  },
+  {
+    "exerciseId": 57,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 51,
+    "time": 120000,
+    "title": "Low start"
+  },
+  {
+    "exerciseId": 94,
+    "id": 0,
+    "queue": 2,
+    "subWorkoutId": 51,
+    "time": 120000,
+    "title": "Balls"
+  },
+  {
+    "exerciseId": 95,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 51,
+    "time": 120000,
+    "title": "Output weighing"
+  },
+  {
+    "exerciseId": 96,
+    "id": 0,
+    "queue": 4,
+    "subWorkoutId": 51,
+    "time": 120000,
+    "title": "In a jump, throwing out arms with a load"
+  },
+  {
+    "exerciseId": 97,
+    "id": 0,
+    "queue": 5,
+    "subWorkoutId": 51,
+    "time": 120000,
+    "title": "Push-ups with alternate ball rolling"
+  },
+  {
+    "exerciseId": 87,
+    "id": 0,
+    "queue": 6,
+    "subWorkoutId": 51,
+    "time": 120000,
+    "title": "Sitting forward bends"
+  },
+  {
+    "exerciseId": 99,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 52,
+    "time": 120000,
+    "title": "Pull-ups"
+  },
+  {
+    "exerciseId": 100,
+    "id": 0,
+    "queue": 2,
+    "repetitionsCount": 10,
+    "subWorkoutId": 52,
+    "title": "Pull-ups on a low horizontal bar"
+  },
+  {
+    "exerciseId": 101,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 3,
+    "subWorkoutId": 52,
+    "title": "Chin up hold"
+  },
+  {
+    "exerciseId": 102,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 53,
+    "time": 120000,
+    "title": "Pull-ups with alternating"
+  },
+  {
+    "approachesCount": 3,
+    "exerciseId": 103,
+    "id": 0,
+    "queue": 2,
+    "repetitionsCount": 30,
+    "subWorkoutId": 53,
+    "title": "Raise your knees while hanging"
+  },
+  {
+    "exerciseId": 102,
+    "id": 0,
+    "queue": 3,
+    "subWorkoutId": 53,
+    "time": 120000,
+    "title": "Pull-ups with alternating"
+  },
+  {
+    "approachesCount": 3,
+    "exerciseId": 103,
+    "id": 0,
+    "queue": 4,
+    "repetitionsCount": 30,
+    "subWorkoutId": 53,
+    "title": "Raise your knees while hanging"
+  },
+  {
+    "exerciseId": 104,
+    "id": 0,
+    "queue": 1,
+    "subWorkoutId": 54,
+    "time": 240000,
+    "title": "Pull-ups"
+  },
+  {
+    "exerciseId": 105,
+    "id": 0,
+    "queue": 2,
+    "repetitionsCount": 12,
+    "subWorkoutId": 54,
+    "title": "Pull-ups on a low horizontal bar"
+  },
+  {
+    "approachesCount": 3,
+    "exerciseId": 106,
+    "id": 0,
+    "queue": 3,
+    "repetitionsCount": 15,
+    "subWorkoutId": 54,
+    "title": "Chin up hold"
+  }
+]
